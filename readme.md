@@ -1,5 +1,5 @@
 
-```markdown
+
 # Cloudflare Worker API Project | Cloudflare Worker API 專案
 
 This project is a Cloudflare Worker that provides an external API service for generating random answers from a pre-defined set in an `answersbook_i18n.json` file. 
@@ -100,5 +100,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 For any questions or feedback, you can reach out me [).  
 如有任何問題或反饋，您可以通過 issue 與我聯絡
-```
+
 
