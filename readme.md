@@ -1,4 +1,25 @@
 
+## DEMO
+
+- **Book of Answers API (Traditional Chinese)**  
+  **解答之書API. 繁體中文**:
+  ```bash
+  curl http://answerbook.david888.com/
+  ```
+
+- **Book of Answers API (English)**  
+  **解答之書API. 英文**:
+  ```bash
+  curl http://answerbook.david888.com/?lang=en
+  ```
+
+- **Random Password Generator**  
+  **隨機密碼產生器**:
+    ```bash
+  curl http://answerbook.david888.com/RandomPassword
+  ```
+
+
 
 # Cloudflare Worker API Project | Cloudflare Worker API 專案
 
