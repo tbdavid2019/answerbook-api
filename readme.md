@@ -19,6 +19,19 @@
   curl http://answerbook.david888.com/RandomPassword
   ```
 
+- **Random Tang Poetry API**  
+  **隨機唐詩API**:
+  ```bash
+  curl http://answerbook.david888.com/TangPoetry
+  ```
+
+- **Random Temple Oracle API (Japanese)**  
+  **隨機淺草籤API **:
+  ```bash
+  curl http://answerbook.david888.com/TempleOracleJP
+  ```
+
+這樣的格式與你現有的描述保持一致，並且清楚地描述了如何使用這兩個新的 API 來隨機獲取唐詩和淺草籤的內容。
 
 
 # Cloudflare Worker API Project | Cloudflare Worker API 專案
