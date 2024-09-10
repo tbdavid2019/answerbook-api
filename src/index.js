@@ -22,6 +22,11 @@ async function handleRequest(request) {
 		return new Response(JSON.stringify({ oracle: oracle }), {
 			headers: { 'Content-Type': 'application/json' },
 		});
+	} else if (url.pathname === '/greWord') {
+		const greWord = await getRandomGreWordFromKV();
+		return new Response(JSON.stringify({ greWord: greWord }), {
+			headers: { 'Content-Type': 'application/json' },
+		});
 	} else {
 		return new Response("Invalid request", { status: 404 });
 	}
@@ -51,6 +56,23 @@ async function getRandomAnswerFromKV(lang) {
 		return data[randomKey].answer[lang];
 	} catch (error) {
 		console.error('Error fetching random answer:', error);
+		return `Error: ${error.message}`;
+	}
+}
+
+// 从 KV 中获取随机 GRE 单词
+async function getRandomGreWordFromKV() {
+	try {
+		const data = await ANSWERS_BOOK.get("greWords", "json");
+
+		if (!data || !data.words) {
+			throw new Error('No GRE words found in KV data');
+		}
+
+		const randomIndex = Math.floor(Math.random() * data.words.length);
+		return data.words[randomIndex];
+	} catch (error) {
+		console.error('Error fetching random GRE word:', error);
 		return `Error: ${error.message}`;
 	}
 }

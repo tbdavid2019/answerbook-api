@@ -1,6 +1,14 @@
 
 ## DEMO
 
+要在現有的 `README.md` 文件上添加新的說明，並保持與現有內容一致，你可以在 `DEMO` 區塊中加入新的 GRE 單字 API 的說明。
+
+以下是新增的內容：
+
+---
+
+## DEMO
+
 - **Book of Answers API (Traditional Chinese)**  
   **解答之書API. 繁體中文**:
   ```bash
@@ -15,7 +23,7 @@
 
 - **Random Password Generator**  
   **隨機密碼產生器**:
-    ```bash
+  ```bash
   curl http://answerbook.david888.com/RandomPassword
   ```
 
@@ -26,12 +34,18 @@
   ```
 
 - **Random Temple Oracle API (Japanese)**  
-  **隨機淺草籤API **:
+  **隨機淺草籤API**:
   ```bash
   curl http://answerbook.david888.com/TempleOracleJP
   ```
 
-這樣的格式與你現有的描述保持一致，並且清楚地描述了如何使用這兩個新的 API 來隨機獲取唐詩和淺草籤的內容。
+- **Random GRE Words API**  
+  **隨機 GRE 單字 API**:
+  ```bash
+  curl http://answerbook.david888.com/greWord
+  ```
+
+
 
 
 # Cloudflare Worker API Project | Cloudflare Worker API 專案
