@@ -1,35 +1,43 @@
 async function handleRequest(request) {
 	const url = new URL(request.url);
 
+	let response;
 	if (url.pathname === '/') {
-		const lang = url.searchParams.get('lang') || 'zh-TW'; // 获取语言参数，默认为 'zh-TW'
+		const lang = url.searchParams.get('lang') || 'zh-TW'; 
 		const answer = await getRandomAnswerFromKV(lang);
-		return new Response(JSON.stringify({ answer: answer }), {
-			headers: { 'Content-Type': 'application/json' },
+		response = new Response(JSON.stringify({ answer: answer }), {
+			headers: { 'Content-Type': 'application/json' }
 		});
 	} else if (url.pathname === '/RandomPassword') {
 		const password = generateRandomPassword();
-		return new Response(JSON.stringify({ RandomPassword: password }), {
-			headers: { 'Content-Type': 'application/json' },
+		response = new Response(JSON.stringify({ RandomPassword: password }), {
+			headers: { 'Content-Type': 'application/json' }
 		});
 	} else if (url.pathname === '/TangPoetry') {
 		const poem = await getRandomPoemFromKV();
-		return new Response(JSON.stringify({ poem: poem }), {
-			headers: { 'Content-Type': 'application/json' },
+		response = new Response(JSON.stringify({ poem: poem }), {
+			headers: { 'Content-Type': 'application/json' }
 		});
 	} else if (url.pathname === '/TempleOracleJP') {
 		const oracle = await getRandomOracleFromKV();
-		return new Response(JSON.stringify({ oracle: oracle }), {
-			headers: { 'Content-Type': 'application/json' },
+		response = new Response(JSON.stringify({ oracle: oracle }), {
+			headers: { 'Content-Type': 'application/json' }
 		});
 	} else if (url.pathname === '/greWord') {
 		const greWord = await getRandomGreWordFromKV();
-		return new Response(JSON.stringify({ greWord: greWord }), {
-			headers: { 'Content-Type': 'application/json' },
+		response = new Response(JSON.stringify({ greWord: greWord }), {
+			headers: { 'Content-Type': 'application/json' }
 		});
 	} else {
-		return new Response("Invalid request", { status: 404 });
+		response = new Response("Invalid request", { status: 404 });
 	}
+
+	// 添加 CORS headers
+	response.headers.set('Access-Control-Allow-Origin', '*');
+	response.headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+	response.headers.set('Access-Control-Allow-Headers', 'Content-Type');
+
+	return response;
 }
 
 // 从 KV 中获取随机答案
