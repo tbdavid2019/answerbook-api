@@ -52,6 +52,36 @@
   curl http://answerbook.david888.com/greWord
   ```
 
+- **S&P 500 Data**  
+  **標普 500 數據**:
+  ```bash
+  curl http://answerbook.david888.com/SP500
+  ```
+
+- **TW0050 Data**  
+  **元大台灣 50 數據**:
+  ```bash
+  curl http://answerbook.david888.com/TW0050
+  ```
+
+- **TW0051 Data**  
+  **元大台灣 50 正 2 數據**:
+  ```bash
+  curl http://answerbook.david888.com/TW0051
+  ```
+
+- **Nasdaq 100 Data**  
+  **納斯達克 100 數據**:
+  ```bash
+  curl http://answerbook.david888.com/nasdaq100
+  ```
+
+- **Dow Jones Data**  
+  **道瓊工業指數數據**:
+  ```bash
+  curl http://answerbook.david888.com/dowjones
+  ```
+
 
 
 
