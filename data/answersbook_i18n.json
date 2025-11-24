@@ -3,1608 +3,7984 @@
         "answer": {
             "zh-TW": "尋求更多的選擇",
             "en": "Seek more options"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "2": {
         "answer": {
             "zh-TW": "不",
             "en": "No"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "3": {
         "answer": {
             "zh-TW": "別忽視顯而易見的東西",
             "en": "Don't overlook the obvious"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "4": {
         "answer": {
             "zh-TW": "結果可能令人吃驚",
             "en": "The result may be surprising"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "5": {
         "answer": {
             "zh-TW": "有決心就能成功",
             "en": "Determination leads to success"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "6": {
         "answer": {
             "zh-TW": "做一次改變",
             "en": "Make a change"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
         }
     },
     "7": {
         "answer": {
             "zh-TW": "照別人告訴你的去做",
             "en": "Do as you're told"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "8": {
         "answer": {
             "zh-TW": "不能保證",
             "en": "Cannot guarantee"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "9": {
         "answer": {
             "zh-TW": "答案可能會以另一種形式出現",
             "en": "The answer may appear in another form"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "10": {
         "answer": {
             "zh-TW": "毫無疑問",
             "en": "Without a doubt"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "11": {
         "answer": {
             "zh-TW": "這樣做會使事情變得有趣",
             "en": "Doing this will make things interesting"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "12": {
         "answer": {
             "zh-TW": "這是肯定的",
             "en": "This is certain"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "13": {
         "answer": {
             "zh-TW": "有可能會傷害到他人",
             "en": "It might harm others"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "risk"
+            ]
         }
     },
     "14": {
         "answer": {
             "zh-TW": "全身心投入將贏得好結果",
             "en": "Full commitment will yield good results"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "15": {
         "answer": {
             "zh-TW": "采取冒險的態度",
             "en": "Take a risk"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "16": {
         "answer": {
             "zh-TW": "最好等待",
             "en": "Better to wait"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "17": {
         "answer": {
             "zh-TW": "可能會惹上麻煩",
             "en": "Might get into trouble"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "18": {
         "answer": {
             "zh-TW": "你需要采取主動",
             "en": "You need to take initiative"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "19": {
         "answer": {
             "zh-TW": "似乎沒問題",
             "en": "Seems fine"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "20": {
         "answer": {
             "zh-TW": "當然",
             "en": "Of course"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "21": {
         "answer": {
             "zh-TW": "不要在意",
             "en": "Don't mind"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "22": {
         "answer": {
             "zh-TW": "盡早做好它",
             "en": "Get it done early"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "23": {
         "answer": {
             "zh-TW": "你終會發現你想知道的一切",
             "en": "You'll eventually find out everything you want to know"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "24": {
         "answer": {
             "zh-TW": "除非你獨自一人",
             "en": "Unless you're alone"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "25": {
         "answer": {
             "zh-TW": "是，但不要強求",
             "en": "Yes, but don't force it"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "26": {
         "answer": {
             "zh-TW": "你需要去適應",
             "en": "You need to adapt"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
         }
     },
     "27": {
         "answer": {
             "zh-TW": "明天再來試試",
             "en": "Try again tomorrow"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "28": {
         "answer": {
             "zh-TW": "以更放松的態度去面對",
             "en": "Face it with a more relaxed attitude"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "rest"
+            ]
         }
     },
     "29": {
         "answer": {
             "zh-TW": "你需要考慮其他方法",
             "en": "You need to consider other methods"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "30": {
         "answer": {
             "zh-TW": "在習慣中接受一些改變",
             "en": "Accept some changes in your habits"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "31": {
         "answer": {
             "zh-TW": "要知道選擇太多和選擇太少一樣很難",
             "en": "Know that too many choices can be as difficult as too few"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "decision",
+                "learning"
+            ]
         }
     },
     "32": {
         "answer": {
             "zh-TW": "別浪費時間了",
             "en": "Don't waste time"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing",
+                "money"
+            ]
         }
     },
     "33": {
         "answer": {
             "zh-TW": "是",
             "en": "Yes"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "34": {
         "answer": {
             "zh-TW": "花更多時間來決定",
             "en": "Take more time to decide"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "decision"
+            ]
         }
     },
     "35": {
         "answer": {
             "zh-TW": "靈活應對",
             "en": "Be flexible"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "36": {
         "answer": {
             "zh-TW": "似乎已成事實",
             "en": "It seems to be a fact already"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "37": {
         "answer": {
             "zh-TW": "看開一點",
             "en": "Take it easy"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "38": {
         "answer": {
             "zh-TW": "問問你的異性同事",
             "en": "Ask your colleague of the opposite gender"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "work",
+                "relationships"
+            ]
         }
     },
     "39": {
         "answer": {
             "zh-TW": "柳暗花明又一村",
             "en": "There's light at the end of the tunnel"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "40": {
         "answer": {
             "zh-TW": "你會後悔的",
             "en": "You'll regret it"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "41": {
         "answer": {
             "zh-TW": "避免第一個解決辦法",
             "en": "Avoid the first solution"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "42": {
         "answer": {
             "zh-TW": "隨它去吧",
             "en": "Let it be"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "43": {
         "answer": {
             "zh-TW": "過段時間就不那麽重要了",
             "en": "It won't be as important after some time"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "44": {
         "answer": {
             "zh-TW": "拭目以待",
             "en": "Wait and see"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "45": {
         "answer": {
             "zh-TW": "相信你最初的想法",
             "en": "Trust your initial thoughts"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "46": {
         "answer": {
             "zh-TW": "請不要抗拒",
             "en": "Please don't resist"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "47": {
         "answer": {
             "zh-TW": "這會帶來好運",
             "en": "This will bring good luck"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "luck"
+            ]
         }
     },
     "48": {
         "answer": {
             "zh-TW": "那一定很棒",
             "en": "That must be great"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "49": {
         "answer": {
             "zh-TW": "把它記下來",
             "en": "Write it down"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "50": {
         "answer": {
             "zh-TW": "可能發生小意外",
             "en": "A small accident might occur"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "51": {
         "answer": {
             "zh-TW": "學習並享受它",
             "en": "Learn and enjoy it"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "52": {
         "answer": {
             "zh-TW": "這具有重要意義",
             "en": "This is of great significance"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "53": {
         "answer": {
             "zh-TW": "防備意外發生",
             "en": "Be prepared for accidents"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "54": {
         "answer": {
             "zh-TW": "一切將依賴於你的選擇",
             "en": "Everything will depend on your choice"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "55": {
         "answer": {
             "zh-TW": "轉移注意力",
             "en": "Shift your focus"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "56": {
         "answer": {
             "zh-TW": "離開",
             "en": "Leave"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "57": {
         "answer": {
             "zh-TW": "你需要其他人的幫助",
             "en": "You need help from others"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "58": {
         "answer": {
             "zh-TW": "這有些特別",
             "en": "This is somewhat special"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "59": {
         "answer": {
             "zh-TW": "不要猶豫",
             "en": "Don't hesitate"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "60": {
         "answer": {
             "zh-TW": "先完成其他事",
             "en": "Finish other things first"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "61": {
         "answer": {
             "zh-TW": "給自己一點時間",
             "en": "Give yourself some time"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "62": {
         "answer": {
             "zh-TW": "現在你就能",
             "en": "You can do it now"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "63": {
         "answer": {
             "zh-TW": "那不值得糾結",
             "en": "It's not worth obsessing over"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "64": {
         "answer": {
             "zh-TW": "那將影響別人對你的看法",
             "en": "That will affect how others see you"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "learning"
+            ]
         }
     },
     "65": {
         "answer": {
             "zh-TW": "照別人說的去做",
             "en": "Do as others say"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "66": {
         "answer": {
             "zh-TW": "轉移你的注意力",
             "en": "Shift your attention"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "67": {
         "answer": {
             "zh-TW": "你會失望的",
             "en": "You'll be disappointed"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "68": {
         "answer": {
             "zh-TW": "最好關注你的工作",
             "en": "Better focus on your work"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "work"
+            ]
         }
     },
     "69": {
         "answer": {
             "zh-TW": "形式尚不明朗",
             "en": "The situation is still unclear"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "70": {
         "answer": {
             "zh-TW": "不要抱有成見",
             "en": "Don't be prejudiced"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "71": {
         "answer": {
             "zh-TW": "你必須現在就行動",
             "en": "You must act now"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "72": {
         "answer": {
             "zh-TW": "那可能很難，但值得",
             "en": "It might be difficult, but it's worth it"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "73": {
         "answer": {
             "zh-TW": "付出就會有回報",
             "en": "Effort will be rewarded"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "74": {
         "answer": {
             "zh-TW": "對意外要有思想準備",
             "en": "Be mentally prepared for accidents"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "75": {
         "answer": {
             "zh-TW": "更細心地去傾聽，你就會知道",
             "en": "Listen more carefully and you'll know"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "learning"
+            ]
         }
     },
     "76": {
         "answer": {
             "zh-TW": "且行且思",
             "en": "Think as you go"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "77": {
         "answer": {
             "zh-TW": "你有能力以任何方式改善",
             "en": "You have the ability to improve in any way"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "78": {
         "answer": {
             "zh-TW": "這是你不會忘記的事物",
             "en": "This is something you won't forget"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "79": {
         "answer": {
             "zh-TW": "履行你的義務",
             "en": "Fulfill your obligations"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "80": {
         "answer": {
             "zh-TW": "快刀斬亂麻",
             "en": "Cut the Gordian knot"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "81": {
         "answer": {
             "zh-TW": "別在這上面下賭注",
             "en": "Don't bet on this"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "money"
+            ]
         }
     },
     "82": {
         "answer": {
             "zh-TW": "也許吧",
             "en": "Maybe"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "83": {
         "answer": {
             "zh-TW": "專注於你的家庭生活",
             "en": "Focus on your family life"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "84": {
         "answer": {
             "zh-TW": "絕對不",
             "en": "Absolutely not"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "85": {
         "answer": {
             "zh-TW": "等待",
             "en": "Wait"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "86": {
         "answer": {
             "zh-TW": "別犯傻了",
             "en": "Don't be foolish"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "87": {
         "answer": {
             "zh-TW": "可能吧",
             "en": "Possibly"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "88": {
         "answer": {
             "zh-TW": "表示懷疑",
             "en": "Express doubt"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "89": {
         "answer": {
             "zh-TW": "意義非凡",
             "en": "Of great significance"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "90": {
         "answer": {
             "zh-TW": "那可能非同尋常",
             "en": "That might be extraordinary"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "91": {
         "answer": {
             "zh-TW": "不可能失敗",
             "en": "Failure is impossible"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "92": {
         "answer": {
             "zh-TW": "你需要了解更多",
             "en": "You need to know more"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "93": {
         "answer": {
             "zh-TW": "情況很快就會有變化",
             "en": "The situation will change soon"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "change"
+            ]
         }
     },
     "94": {
         "answer": {
             "zh-TW": "這並不重要",
             "en": "This is not important"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "95": {
         "answer": {
             "zh-TW": "順其自然",
             "en": "Let nature take its course"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "96": {
         "answer": {
             "zh-TW": "問問你最好的朋友",
             "en": "Ask your best friend"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "97": {
         "answer": {
             "zh-TW": "這時不要再自找麻煩",
             "en": "Don't court trouble at this time"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "risk"
+            ]
         }
     },
     "98": {
         "answer": {
             "zh-TW": "晚一點處理",
             "en": "Deal with it later"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing",
+                "decision"
+            ]
         }
     },
     "99": {
         "answer": {
             "zh-TW": "嘗試一種更可能的解決方案",
             "en": "Try a more likely solution"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "work",
+                "decision"
+            ]
         }
     },
     "100": {
         "answer": {
             "zh-TW": "先做重要的事",
             "en": "Do the important things first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "101": {
         "answer": {
             "zh-TW": "投硬幣來做決定吧",
             "en": "Flip a coin to decide"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "102": {
         "answer": {
             "zh-TW": "這也取決於另一種情況",
             "en": "This also depends on another situation"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "103": {
         "answer": {
             "zh-TW": "你最終能如願",
             "en": "You'll eventually get what you want"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "104": {
         "answer": {
             "zh-TW": "可行",
             "en": "Feasible"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "105": {
         "answer": {
             "zh-TW": "答案就在你家窗外",
             "en": "The answer is outside your window"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "106": {
         "answer": {
             "zh-TW": "現在的你比以往任何時候都清楚",
             "en": "You're clearer now than ever before"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "107": {
         "answer": {
             "zh-TW": "只需說聲謝謝",
             "en": "Just say thank you"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "108": {
         "answer": {
             "zh-TW": "或許，等你再年長些就明白了",
             "en": "Perhaps you'll understand when you're older"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "109": {
         "answer": {
             "zh-TW": "這將轟動一時",
             "en": "This will cause a sensation"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "110": {
         "answer": {
             "zh-TW": "放手一搏",
             "en": "Give it a shot"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "111": {
         "answer": {
             "zh-TW": "事情會朝目標發展",
             "en": "Things will develop towards the goal"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "112": {
         "answer": {
             "zh-TW": "更細心去了解，你就知道該怎麽做了",
             "en": "Understand more carefully, and you'll know what to do"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "long",
+            "themes": [
+                "intuition",
+                "learning"
+            ]
         }
     },
     "113": {
         "answer": {
             "zh-TW": "需要做更多的努力",
             "en": "More effort is needed"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "114": {
         "answer": {
             "zh-TW": "等待一個更好的機會",
             "en": "Wait for a better opportunity"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "115": {
         "answer": {
             "zh-TW": "數到5，再試一次",
             "en": "Count to 5, then try again"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "116": {
         "answer": {
             "zh-TW": "你不得不妥協",
             "en": "You have to compromise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "117": {
         "answer": {
             "zh-TW": "很快就能解決",
             "en": "It will be resolved soon"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing",
+                "decision"
+            ]
         }
     },
     "118": {
         "answer": {
             "zh-TW": "十分確定",
             "en": "Very certain"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "119": {
         "answer": {
             "zh-TW": "這還不確定",
             "en": "This is still uncertain"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "120": {
         "answer": {
             "zh-TW": "謹慎處理",
             "en": "Handle with care"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "121": {
         "answer": {
             "zh-TW": "全力以赴",
             "en": "Give it your all"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "122": {
         "answer": {
             "zh-TW": "重新考慮你的做法",
             "en": "Reconsider your approach"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change",
+                "learning"
+            ]
         }
     },
     "123": {
         "answer": {
             "zh-TW": "問問你的母親吧",
             "en": "Ask your mother"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "124": {
         "answer": {
             "zh-TW": "如果你獨自一人就不要",
             "en": "Don't if you're alone"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "125": {
         "answer": {
             "zh-TW": "無需擔憂",
             "en": "No need to worry"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "126": {
         "answer": {
             "zh-TW": "保持開放的心態",
             "en": "Keep an open mind"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "127": {
         "answer": {
             "zh-TW": "你會為自己所做的感到高興的",
             "en": "You'll be happy with what you've done"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "128": {
         "answer": {
             "zh-TW": "發揮你的想象力",
             "en": "Use your imagination"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "129": {
         "answer": {
             "zh-TW": "獻出你的一切",
             "en": "Give your all"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "130": {
         "answer": {
             "zh-TW": "順從你的意願",
             "en": "Follow your will"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "131": {
         "answer": {
             "zh-TW": "先做好自己的事",
             "en": "Take care of your own business first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "132": {
         "answer": {
             "zh-TW": "不要懷疑",
             "en": "Don't doubt"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "133": {
         "answer": {
             "zh-TW": "是時候做新打算了​",
             "en": "It's time to make new plans"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "134": {
         "answer": {
             "zh-TW": "省省力氣吧",
             "en": "Save your energy"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "135": {
         "answer": {
             "zh-TW": "合作將是關鍵",
             "en": "Cooperation will be key"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "work"
+            ]
         }
     },
     "136": {
         "answer": {
             "zh-TW": "此時不宜",
             "en": "Not appropriate at this time"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "137": {
         "answer": {
             "zh-TW": "把這看做一次機會",
             "en": "See this as an opportunity"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "138": {
         "answer": {
             "zh-TW": "莫等待",
             "en": "Don't wait"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "139": {
         "answer": {
             "zh-TW": "你可能不得不放棄其他東西",
             "en": "You might have to give up something else"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "140": {
         "answer": {
             "zh-TW": "遵守規則",
             "en": "Follow the rules"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "141": {
         "answer": {
             "zh-TW": "相關問題可能會出現",
             "en": "Related issues may arise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "142": {
         "answer": {
             "zh-TW": "事情將如你所願",
             "en": "Things will go as you wish"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "143": {
         "answer": {
             "zh-TW": "賭一把",
             "en": "Take a gamble"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "money"
+            ]
         }
     },
     "144": {
         "answer": {
             "zh-TW": "以後再處理",
             "en": "Deal with it later"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing",
+                "decision"
+            ]
         }
     },
     "145": {
         "answer": {
             "zh-TW": "結果是樂觀的",
             "en": "The outcome is optimistic"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "146": {
         "answer": {
             "zh-TW": "期待解決",
             "en": "Look forward to a solution"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "147": {
         "answer": {
             "zh-TW": "靈活應對",
             "en": "Be flexible"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "148": {
         "answer": {
             "zh-TW": "注意細節",
             "en": "Pay attention to details"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "149": {
         "answer": {
             "zh-TW": "你的行動會使一切變好",
             "en": "Your actions will make everything better"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "150": {
         "answer": {
             "zh-TW": "答案就在公園里",
             "en": "The answer is in the park"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "151": {
         "answer": {
             "zh-TW": "消除你自身的障礙",
             "en": "Eliminate your own obstacles"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "152": {
         "answer": {
             "zh-TW": "這是不明智的",
             "en": "This is unwise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "153": {
         "answer": {
             "zh-TW": "將需要大量的努力",
             "en": "It will require a lot of effort"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "154": {
         "answer": {
             "zh-TW": "不要勉強自己",
             "en": "Don't force yourself"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "155": {
         "answer": {
             "zh-TW": "是時候做打算了",
             "en": "It's time to make plans"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "156": {
         "answer": {
             "zh-TW": "別再猶豫了",
             "en": "Don't hesitate anymore"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "157": {
         "answer": {
             "zh-TW": "享受這次體驗",
             "en": "Enjoy this experience"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "158": {
         "answer": {
             "zh-TW": "要付出堅持不懈的努力",
             "en": "Persistent effort is required"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "159": {
         "answer": {
             "zh-TW": "那仍舊無法預測",
             "en": "That's still unpredictable"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "160": {
         "answer": {
             "zh-TW": "毋庸置疑",
             "en": "Without a doubt"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "161": {
         "answer": {
             "zh-TW": "多花點時間來做決定",
             "en": "Take more time to make a decision"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "decision"
+            ]
         }
     },
     "162": {
         "answer": {
             "zh-TW": "只做這一次",
             "en": "Do it just this once"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "163": {
         "answer": {
             "zh-TW": "這是不明智的",
             "en": "This is unwise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "164": {
         "answer": {
             "zh-TW": "做些改變",
             "en": "Make some changes"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
         }
     },
     "165": {
         "answer": {
             "zh-TW": "可行",
             "en": "Feasible"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "166": {
         "answer": {
             "zh-TW": "先做好其他事",
             "en": "Take care of other things first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "167": {
         "answer": {
             "zh-TW": "不要陷入到情緒之中",
             "en": "Don't get caught up in emotions"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "168": {
         "answer": {
             "zh-TW": "相信你的直覺",
             "en": "Trust your intuition"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "169": {
         "answer": {
             "zh-TW": "采納智者的建議",
             "en": "Take the advice of the wise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "170": {
         "answer": {
             "zh-TW": "情況不明了",
             "en": "The situation is unclear"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "171": {
         "answer": {
             "zh-TW": "你不得不妥協",
             "en": "You have to compromise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "172": {
         "answer": {
             "zh-TW": "列出否定的理由",
             "en": "List the reasons for denial"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "173": {
         "answer": {
             "zh-TW": "要有耐心",
             "en": "Be patient"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "174": {
         "answer": {
             "zh-TW": "一笑置之",
             "en": "Laugh it off"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "175": {
         "answer": {
             "zh-TW": "繼續",
             "en": "Continue"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "176": {
         "answer": {
             "zh-TW": "你必須隨機應變",
             "en": "You must adapt to circumstances"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "177": {
         "answer": {
             "zh-TW": "別忘記享受樂趣",
             "en": "Don't forget to have fun"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "178": {
         "answer": {
             "zh-TW": "那是在浪費金錢",
             "en": "That's a waste of money"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
         }
     },
     "179": {
         "answer": {
             "zh-TW": "重要的優先",
             "en": "Prioritize what's important"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "180": {
         "answer": {
             "zh-TW": "為了做出最好的決定，務必保持冷靜",
             "en": "To make the best decision, stay calm"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "long",
+            "themes": [
+                "decision",
+                "rest"
+            ]
         }
     },
     "181": {
         "answer": {
             "zh-TW": "嘗試一個更沒把握的方法",
             "en": "Try a more uncertain method"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "182": {
         "answer": {
             "zh-TW": "清除你自身的障礙",
             "en": "Clear your own obstacles"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "183": {
         "answer": {
             "zh-TW": "那可能已成事實",
             "en": "That might already be a fact"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "184": {
         "answer": {
             "zh-TW": "保守你的秘密",
             "en": "Keep your secret"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "185": {
         "answer": {
             "zh-TW": "你必須馬上行動",
             "en": "You must act immediately"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "186": {
         "answer": {
             "zh-TW": "不要妄下賭注",
             "en": "Don't make rash bets"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "money"
+            ]
         }
     },
     "187": {
         "answer": {
             "zh-TW": "那可能已無法改變",
             "en": "That might be unchangeable now"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "188": {
         "answer": {
             "zh-TW": "一些幫助能確保你成功",
             "en": "Some help can ensure your success"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "189": {
         "answer": {
             "zh-TW": "你肯定會獲得支持",
             "en": "You'll definitely get support"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "190": {
         "answer": {
             "zh-TW": "只做一次",
             "en": "Do it only once"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "191": {
         "answer": {
             "zh-TW": "遵循智者的建議",
             "en": "Follow the advice of the wise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "192": {
         "answer": {
             "zh-TW": "如你所願",
             "en": "As you wish"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "193": {
         "answer": {
             "zh-TW": "當局者迷",
             "en": "The parties involved are blind to the situation"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "194": {
         "answer": {
             "zh-TW": "無論你怎麽做，結果依舊",
             "en": "No matter what you do, the result remains the same"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "195": {
         "answer": {
             "zh-TW": "先主後次",
             "en": "Prioritize the main tasks"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "196": {
         "answer": {
             "zh-TW": "這會讓你付出代價​​​",
             "en": "This will cost you"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "197": {
         "answer": {
             "zh-TW": "盡早行動",
             "en": "Act early"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "198": {
         "answer": {
             "zh-TW": "尋求更多選擇",
             "en": "Seek more options"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "199": {
         "answer": {
             "zh-TW": "你現在比以往任何時候都清楚",
             "en": "You're clearer now than ever before"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "200": {
         "answer": {
             "zh-TW": "極可能發生事故",
             "en": "An accident is highly likely"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk"
+            ]
         }
     },
     "201": {
         "answer": {
             "zh-TW": "帶著好奇去探索",
             "en": "Explore with curiosity"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "202": {
         "answer": {
             "zh-TW": "列出這樣做的理由",
             "en": "List the reasons for doing this"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "203": {
         "answer": {
             "zh-TW": "馬上停下來",
             "en": "Stop immediately"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "204": {
         "answer": {
             "zh-TW": "這不是很確定",
             "en": "This is not very certain"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "205": {
         "answer": {
             "zh-TW": "不用擔心",
             "en": "No need to worry"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "206": {
         "answer": {
             "zh-TW": "不要告訴別人",
             "en": "Don't tell others"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "207": {
         "answer": {
             "zh-TW": "你需要其他人的幫助",
             "en": "You need help from others"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "208": {
         "answer": {
             "zh-TW": "那將是一件樂事",
             "en": "That will be a pleasure"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "209": {
         "answer": {
             "zh-TW": "不要迫於壓力草率行事",
             "en": "Don't act hastily under pressure"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "210": {
         "answer": {
             "zh-TW": "不要等待",
             "en": "Don't wait"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "211": {
         "answer": {
             "zh-TW": "你能以任何方式改善現狀",
             "en": "You can improve the situation in any way"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
         }
     },
     "212": {
         "answer": {
             "zh-TW": "你會為此感到高興",
             "en": "You'll be happy about this"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "213": {
         "answer": {
             "zh-TW": "放棄之前的想法",
             "en": "Abandon your previous thoughts"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "change"
+            ]
         }
     },
     "214": {
         "answer": {
             "zh-TW": "你不會忘記這些",
             "en": "You won't forget these"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "215": {
         "answer": {
             "zh-TW": "謹慎對待",
             "en": "Handle with care"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "216": {
         "answer": {
             "zh-TW": "放棄你現在的想法",
             "en": "Give up your current thoughts"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "intuition",
+                "change"
+            ]
         }
     },
     "217": {
         "answer": {
             "zh-TW": "有理由保持樂觀",
             "en": "There's reason to be optimistic"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "218": {
         "answer": {
             "zh-TW": "你會發現自己難以妥協",
             "en": "You'll find it hard to compromise"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "219": {
         "answer": {
             "zh-TW": "改變不會很快發生",
             "en": "Change won't happen quickly"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "change"
+            ]
         }
     },
     "220": {
         "answer": {
             "zh-TW": "有些障礙需要克服",
             "en": "Some obstacles need to be overcome"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "221": {
         "answer": {
             "zh-TW": "耐心點",
             "en": "Be patient"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
         }
     },
     "222": {
         "answer": {
             "zh-TW": "果斷放棄",
             "en": "Give up decisively"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
         }
     },
     "223": {
         "answer": {
             "zh-TW": "最好把心思放在工作上",
             "en": "Better focus on your work"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "work",
+                "intuition"
+            ]
         }
     },
     "224": {
         "answer": {
             "zh-TW": "要做就做好，否則就不要去做",
             "en": "Do it well or don't do it at all"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "225": {
         "answer": {
             "zh-TW": "深表懷疑",
             "en": "Highly doubtful"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "226": {
         "answer": {
             "zh-TW": "最好的解決方法可能不太明顯",
             "en": "The best solution might not be obvious"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "227": {
         "answer": {
             "zh-TW": "已超出你的控制",
             "en": "It's beyond your control"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "228": {
         "answer": {
             "zh-TW": "看看會發生什麽",
             "en": "See what happens"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "229": {
         "answer": {
             "zh-TW": "你需要更多信息",
             "en": "You need more information"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "230": {
         "answer": {
             "zh-TW": "開闊視野",
             "en": "Broaden your horizons"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "231": {
         "answer": {
             "zh-TW": "看得更清楚些",
             "en": "See more clearly"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "232": {
         "answer": {
             "zh-TW": "結果可能會令人震驚",
             "en": "The result might be shocking"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "233": {
         "answer": {
             "zh-TW": "節省你的精力吧",
             "en": "Save your energy"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "234": {
         "answer": {
             "zh-TW": "管它呢",
             "en": "Never mind"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "235": {
         "answer": {
             "zh-TW": "無論你做什麽，結果依舊",
             "en": "Whatever you do, the result remains the same"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "236": {
         "answer": {
             "zh-TW": "那將引起一些紛爭",
             "en": "That will cause some disputes"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "237": {
         "answer": {
             "zh-TW": "相關問題可能會浮出水面",
             "en": "Related issues might surface"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "238": {
         "answer": {
             "zh-TW": "遵循其他人的建議",
             "en": "Follow others' advice"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "239": {
         "answer": {
             "zh-TW": "改變將不會很快發生​​​",
             "en": "Change won't happen quickly"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "change"
+            ]
         }
     },
     "240": {
         "answer": {
             "zh-TW": "值得付出努力",
             "en": "It's worth the effort"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "241": {
         "answer": {
             "zh-TW": "負起責任來",
             "en": "Take responsibility"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "242": {
         "answer": {
             "zh-TW": "不值得一爭",
             "en": "Not worth arguing about"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "243": {
         "answer": {
             "zh-TW": "問問你的父親吧",
             "en": "Ask your father"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "244": {
         "answer": {
             "zh-TW": "向別人傾訴",
             "en": "Talk to someone"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "245": {
         "answer": {
             "zh-TW": "看起來還行",
             "en": "Looks okay"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
         }
     },
     "246": {
         "answer": {
             "zh-TW": "絕不",
             "en": "Absolutely not"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "247": {
         "answer": {
             "zh-TW": "等待一個更好的提議",
             "en": "Wait for a better proposal"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "rest"
+            ]
         }
     },
     "248": {
         "answer": {
             "zh-TW": "你可能會遭遇反對",
             "en": "You might face opposition"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "249": {
         "answer": {
             "zh-TW": "告訴某人那對你意味著什麽",
             "en": "Tell someone what it means to you"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "250": {
         "answer": {
             "zh-TW": "一切都取決於你的選擇",
             "en": "Everything depends on your choice"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
         }
     },
     "251": {
         "answer": {
             "zh-TW": "把這看作一個時機",
             "en": "See this as an opportunity"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "learning"
+            ]
         }
     },
     "252": {
         "answer": {
             "zh-TW": "不要陷入你的情緒",
             "en": "Don't get caught up in your emotions"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "253": {
         "answer": {
             "zh-TW": "你一定得這麽做",
             "en": "You must do this"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "254": {
         "answer": {
             "zh-TW": "享受這個過程",
             "en": "Enjoy the process"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "255": {
         "answer": {
             "zh-TW": "不識廬山真面目，只緣身在此山中",
             "en": "You can't see the whole picture when you're in the middle of it"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
         }
     },
     "256": {
         "answer": {
             "zh-TW": "你不會失望的",
             "en": "You won't be disappointed"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "257": {
         "answer": {
             "zh-TW": "是時候走了",
             "en": "It's time to go"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
         }
     },
     "258": {
         "answer": {
             "zh-TW": "欣然接受",
             "en": "Accept gladly"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "259": {
         "answer": {
             "zh-TW": "遵循其他人的意見",
             "en": "Follow others' opinions"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "260": {
         "answer": {
             "zh-TW": "說出來吧",
             "en": "Speak up"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "261": {
         "answer": {
             "zh-TW": "慷慨大度一些",
             "en": "Be more generous"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "262": {
         "answer": {
             "zh-TW": "你可能遭遇反對",
             "en": "You might face opposition"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
         }
     },
     "263": {
         "answer": {
             "zh-TW": "你能否不要抗拒",
             "en": "Can you not resist"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "264": {
         "answer": {
             "zh-TW": "要障礙需要克服",
             "en": "Obstacles need to be overcome"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
         }
     },
     "265": {
         "answer": {
             "zh-TW": "做出改變",
             "en": "Make a change"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
         }
     },
     "266": {
         "answer": {
             "zh-TW": "無法保證",
             "en": "Cannot guarantee"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "267": {
         "answer": {
             "zh-TW": "算了吧",
             "en": "Forget it"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
         }
     },
     "268": {
         "answer": {
             "zh-TW": "合作是關鍵",
             "en": "Cooperation is key"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "work"
+            ]
+        }
+    },
+    "269": {
+        "answer": {
+            "zh-TW": "走到室外呼吸新鮮空氣",
+            "en": "Step outside for fresh air"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "self",
+                "health",
+                "rest"
+            ]
+        }
+    },
+    "270": {
+        "answer": {
+            "zh-TW": "換個咖啡店再想想",
+            "en": "Try thinking in another café"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "environment",
+                "timing"
+            ]
+        }
+    },
+    "271": {
+        "answer": {
+            "zh-TW": "在日落前做完它",
+            "en": "Finish it before sunset"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "action",
+                "discipline"
+            ]
+        }
+    },
+    "272": {
+        "answer": {
+            "zh-TW": "把問題寫在便利貼貼門口",
+            "en": "Put the question on a sticky note by the door"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "communication",
+                "self"
+            ]
+        }
+    },
+    "273": {
+        "answer": {
+            "zh-TW": "邀請朋友一起討論",
+            "en": "Invite a friend to talk it through"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "communication",
+                "support"
+            ]
+        }
+    },
+    "274": {
+        "answer": {
+            "zh-TW": "打電話給很久沒聯絡的人",
+            "en": "Call someone you haven't spoken to in a while"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "communication",
+                "nostalgia"
+            ]
+        }
+    },
+    "275": {
+        "answer": {
+            "zh-TW": "到圖書館尋找靈感",
+            "en": "Seek inspiration at the library"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "learning",
+                "creativity",
+                "environment"
+            ]
+        }
+    },
+    "276": {
+        "answer": {
+            "zh-TW": "留意夢裡的訊息",
+            "en": "Watch for messages in your dreams"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "ritual",
+                "self"
+            ]
+        }
+    },
+    "277": {
+        "answer": {
+            "zh-TW": "聽一首老歌會給你答案",
+            "en": "An old song will give you the answer"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "nostalgia",
+                "intuition",
+                "creativity"
+            ]
+        }
+    },
+    "278": {
+        "answer": {
+            "zh-TW": "去公園散步時再決定",
+            "en": "Decide while walking in a park"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "health",
+                "environment",
+                "timing"
+            ]
+        }
+    },
+    "279": {
+        "answer": {
+            "zh-TW": "把選項畫成流程圖",
+            "en": "Draw your options as a flowchart"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "data",
+                "decision"
+            ]
+        }
+    },
+    "280": {
+        "answer": {
+            "zh-TW": "嘗試把問題說成一句玩笑",
+            "en": "Turn the question into a joke"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "creativity",
+                "play"
+            ]
+        }
+    },
+    "281": {
+        "answer": {
+            "zh-TW": "給未來的自己寫封信",
+            "en": "Write a letter to your future self"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "self",
+                "planning",
+                "reflection"
+            ]
+        }
+    },
+    "282": {
+        "answer": {
+            "zh-TW": "把手機放下三十分鐘",
+            "en": "Put your phone away for thirty minutes"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "self",
+                "discipline",
+                "rest"
+            ]
+        }
+    },
+    "283": {
+        "answer": {
+            "zh-TW": "換個角度坐下來看",
+            "en": "Sit somewhere else and look at it"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "environment",
+                "perspective",
+                "creativity"
+            ]
+        }
+    },
+    "284": {
+        "answer": {
+            "zh-TW": "問問路人",
+            "en": "Ask a passerby"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "adventure",
+                "communication",
+                "luck"
+            ]
+        }
+    },
+    "285": {
+        "answer": {
+            "zh-TW": "找個安靜的角落冥想",
+            "en": "Meditate in a quiet corner"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "self",
+                "rest",
+                "intuition"
+            ]
+        }
+    },
+    "286": {
+        "answer": {
+            "zh-TW": "在路口左轉之後再決定",
+            "en": "Decide after turning left at the intersection"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "travel",
+                "timing",
+                "intuition"
+            ]
+        }
+    },
+    "287": {
+        "answer": {
+            "zh-TW": "查查看天氣預報",
+            "en": "Check the weather forecast"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "planning",
+                "environment",
+                "timing"
+            ]
+        }
+    },
+    "288": {
+        "answer": {
+            "zh-TW": "買張小車票，路上想",
+            "en": "Buy a small ticket and think on the way"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "travel",
+                "adventure",
+                "reflection"
+            ]
+        }
+    },
+    "289": {
+        "answer": {
+            "zh-TW": "先吃點甜的",
+            "en": "Have something sweet first"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "self",
+                "rest",
+                "comfort"
+            ]
+        }
+    },
+    "290": {
+        "answer": {
+            "zh-TW": "多睡一會兒再答",
+            "en": "Sleep a bit more before answering"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "rest",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "timing"
+            ]
+        }
+    },
+    "291": {
+        "answer": {
+            "zh-TW": "打掃你的桌面",
+            "en": "Clean your desk"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "action",
+                "environment",
+                "planning"
+            ]
+        }
+    },
+    "292": {
+        "answer": {
+            "zh-TW": "換一盞燈光",
+            "en": "Change the lighting"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "environment",
+                "mood",
+                "creativity"
+            ]
+        }
+    },
+    "293": {
+        "answer": {
+            "zh-TW": "嘗試星期二再做",
+            "en": "Try it on Tuesday"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "planning",
+                "work"
+            ]
+        }
+    },
+    "294": {
+        "answer": {
+            "zh-TW": "在星空下說出你的願望",
+            "en": "Say your wish under the stars"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "intuition",
+                "adventure"
+            ]
+        }
+    },
+    "295": {
+        "answer": {
+            "zh-TW": "把它寫成待辦列表的第一項",
+            "en": "Put it as the first item on your to-do list"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "discipline",
+                "action"
+            ]
+        }
+    },
+    "296": {
+        "answer": {
+            "zh-TW": "說出三個感恩的事",
+            "en": "Say three things you're grateful for"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "self",
+                "gratitude",
+                "emotion"
+            ]
+        }
+    },
+    "297": {
+        "answer": {
+            "zh-TW": "對著鏡子說出答案",
+            "en": "Say the answer in the mirror"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "self",
+                "intuition",
+                "ritual"
+            ]
+        }
+    },
+    "298": {
+        "answer": {
+            "zh-TW": "向植物傾訴",
+            "en": "Confide in a plant"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "self",
+                "environment",
+                "play"
+            ]
+        }
+    },
+    "299": {
+        "answer": {
+            "zh-TW": "學會說不",
+            "en": "Learn to say no"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "communication",
+                "boundaries",
+                "self"
+            ]
+        }
+    },
+    "300": {
+        "answer": {
+            "zh-TW": "接受別人的好意",
+            "en": "Accept others' kindness"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "gratitude",
+                "support"
+            ]
+        }
+    },
+    "301": {
+        "answer": {
+            "zh-TW": "現在就說出你的想法",
+            "en": "Speak your mind right now"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "communication",
+                "action",
+                "courage"
+            ]
+        }
+    },
+    "302": {
+        "answer": {
+            "zh-TW": "等到滿月再決定",
+            "en": "Decide at the full moon"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "ritual",
+                "intuition"
+            ]
+        }
+    },
+    "303": {
+        "answer": {
+            "zh-TW": "清空購物車再說",
+            "en": "Empty your cart first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "discipline",
+                "money",
+                "planning"
+            ]
+        }
+    },
+    "304": {
+        "answer": {
+            "zh-TW": "列出最壞的情況",
+            "en": "List the worst-case scenarios"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "planning",
+                "action"
+            ]
+        }
+    },
+    "305": {
+        "answer": {
+            "zh-TW": "請客吃飯換回信息",
+            "en": "Buy someone dinner in exchange for insight"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "communication",
+                "money"
+            ]
+        }
+    },
+    "306": {
+        "answer": {
+            "zh-TW": "打一通詢問的電話",
+            "en": "Make a call to ask directly"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "communication",
+                "action",
+                "work"
+            ]
+        }
+    },
+    "307": {
+        "answer": {
+            "zh-TW": "暫停五分鐘深呼吸",
+            "en": "Pause for five minutes and breathe"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "self"
+            ]
+        }
+    },
+    "308": {
+        "answer": {
+            "zh-TW": "在凌晨做出決定",
+            "en": "Decide in the early hours"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "intuition",
+                "quiet"
+            ]
+        }
+    },
+    "309": {
+        "answer": {
+            "zh-TW": "跟貓狗商量看看",
+            "en": "Ask your cat or dog"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "play",
+                "relationships",
+                "comfort"
+            ]
+        }
+    },
+    "310": {
+        "answer": {
+            "zh-TW": "穿上你最舒服的衣服",
+            "en": "Wear your most comfortable clothes"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "self",
+                "comfort",
+                "rest"
+            ]
+        }
+    },
+    "311": {
+        "answer": {
+            "zh-TW": "換掉背景音樂",
+            "en": "Change the background music"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "environment",
+                "creativity",
+                "mood"
+            ]
+        }
+    },
+    "312": {
+        "answer": {
+            "zh-TW": "把名字寫在沙子上",
+            "en": "Write the name in the sand"
+        },
+        "meta": {
+            "tone": "poetic",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "release",
+                "emotion"
+            ]
+        }
+    },
+    "313": {
+        "answer": {
+            "zh-TW": "翻開一本書的第七頁",
+            "en": "Open to page seven of a book"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "learning",
+                "ritual"
+            ]
+        }
+    },
+    "314": {
+        "answer": {
+            "zh-TW": "請教年紀最小的人",
+            "en": "Ask the youngest person"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "perspective",
+                "community"
+            ]
+        }
+    },
+    "315": {
+        "answer": {
+            "zh-TW": "請教年紀最大的人",
+            "en": "Ask the eldest person"
+        },
+        "meta": {
+            "tone": "respectful",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "wisdom",
+                "community"
+            ]
+        }
+    },
+    "316": {
+        "answer": {
+            "zh-TW": "和團隊共創一個版本",
+            "en": "Co-create a version with your team"
+        },
+        "meta": {
+            "tone": "collaborative",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "work",
+                "collaboration",
+                "creativity"
+            ]
+        }
+    },
+    "317": {
+        "answer": {
+            "zh-TW": "寫一段沒有發出的訊息",
+            "en": "Write an unsent message"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "self",
+                "communication",
+                "release"
+            ]
+        }
+    },
+    "318": {
+        "answer": {
+            "zh-TW": "換個顏色的筆",
+            "en": "Use a different color pen"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "creativity",
+                "environment",
+                "planning"
+            ]
+        }
+    },
+    "319": {
+        "answer": {
+            "zh-TW": "先讓數據說話",
+            "en": "Let the data speak first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "data",
+                "work",
+                "decision"
+            ]
+        }
+    },
+    "320": {
+        "answer": {
+            "zh-TW": "讓情緒冷卻再談",
+            "en": "Let emotions cool before talking"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "emotion",
+                "timing"
+            ]
+        }
+    },
+    "321": {
+        "answer": {
+            "zh-TW": "在早晨陽光下決定",
+            "en": "Decide in the morning light"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "self",
+                "clarity"
+            ]
+        }
+    },
+    "322": {
+        "answer": {
+            "zh-TW": "在夜裡的小路上想想",
+            "en": "Think on a quiet night walk"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "reflection",
+                "environment",
+                "rest"
+            ]
+        }
+    },
+    "323": {
+        "answer": {
+            "zh-TW": "做一個硬幣但別看",
+            "en": "Flip a coin but don't look"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "decision",
+                "intuition",
+                "play"
+            ]
+        }
+    },
+    "324": {
+        "answer": {
+            "zh-TW": "讓直覺先行一步",
+            "en": "Let intuition take the first step"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition",
+                "decision",
+                "self"
+            ]
+        }
+    },
+    "325": {
+        "answer": {
+            "zh-TW": "保持低調行事",
+            "en": "Keep it low-key"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "risk",
+                "work",
+                "relationships"
+            ]
+        }
+    },
+    "326": {
+        "answer": {
+            "zh-TW": "公開宣布你的決定",
+            "en": "Announce your decision publicly"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "accountability",
+                "courage"
+            ]
+        }
+    },
+    "327": {
+        "answer": {
+            "zh-TW": "發出一個邀請",
+            "en": "Send an invitation"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "community",
+                "action"
+            ]
+        }
+    },
+    "328": {
+        "answer": {
+            "zh-TW": "取消一個會議",
+            "en": "Cancel a meeting"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "work",
+                "planning",
+                "rest"
+            ]
+        }
+    },
+    "329": {
+        "answer": {
+            "zh-TW": "說聲抱歉然後前進",
+            "en": "Apologize and move forward"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "healing",
+                "action"
+            ]
+        }
+    },
+    "330": {
+        "answer": {
+            "zh-TW": "送出一個小禮物",
+            "en": "Give a small gift"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "gratitude",
+                "support"
+            ]
+        }
+    },
+    "331": {
+        "answer": {
+            "zh-TW": "寫下三個備案",
+            "en": "Write down three backup plans"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "risk",
+                "action"
+            ]
+        }
+    },
+    "332": {
+        "answer": {
+            "zh-TW": "調整預算後再說",
+            "en": "Rework the budget first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "money",
+                "planning",
+                "work"
+            ]
+        }
+    },
+    "333": {
+        "answer": {
+            "zh-TW": "去海邊聽浪",
+            "en": "Listen to the waves at the shore"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "environment",
+                "intuition"
+            ]
+        }
+    },
+    "334": {
+        "answer": {
+            "zh-TW": "登上高處俯瞰城市",
+            "en": "Look over the city from up high"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "perspective",
+                "adventure",
+                "reflection"
+            ]
+        }
+    },
+    "335": {
+        "answer": {
+            "zh-TW": "點一盞小蠟燭",
+            "en": "Light a small candle"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "ritual",
+                "calm",
+                "emotion"
+            ]
+        }
+    },
+    "336": {
+        "answer": {
+            "zh-TW": "拍張照片記錄當下",
+            "en": "Take a photo of this moment"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "memory",
+                "reflection",
+                "celebration"
+            ]
+        }
+    },
+    "337": {
+        "answer": {
+            "zh-TW": "閉上眼睛數到十",
+            "en": "Close your eyes and count to ten"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "rest",
+                "emotion",
+                "self"
+            ]
+        }
+    },
+    "338": {
+        "answer": {
+            "zh-TW": "試著慢跑一公里",
+            "en": "Go for a light one-kilometer run"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "health",
+                "action",
+                "clarity"
+            ]
+        }
+    },
+    "339": {
+        "answer": {
+            "zh-TW": "換個語言說出問題",
+            "en": "State the question in another language"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "perspective",
+                "communication"
+            ]
+        }
+    },
+    "340": {
+        "answer": {
+            "zh-TW": "邀請反對者成為顧問",
+            "en": "Invite your critic to be an advisor"
+        },
+        "meta": {
+            "tone": "bold",
+            "mood": "positive",
+            "style": "strategic",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "work",
+                "growth"
+            ]
+        }
+    },
+    "341": {
+        "answer": {
+            "zh-TW": "請教陌生專家",
+            "en": "Ask a stranger who is an expert"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "work",
+                "learning",
+                "community"
+            ]
+        }
+    },
+    "342": {
+        "answer": {
+            "zh-TW": "在日記本留下空白頁",
+            "en": "Leave a blank page in your journal"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "self",
+                "reflection",
+                "rest"
+            ]
+        }
+    },
+    "343": {
+        "answer": {
+            "zh-TW": "給自己設定一個小賭注",
+            "en": "Set a small wager with yourself"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "motivation",
+                "risk",
+                "play"
+            ]
+        }
+    },
+    "344": {
+        "answer": {
+            "zh-TW": "用骰子決定順序",
+            "en": "Let dice decide the order"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "decision",
+                "play",
+                "timing"
+            ]
+        }
+    },
+    "345": {
+        "answer": {
+            "zh-TW": "試著不做任何事",
+            "en": "Try doing nothing"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "rest",
+                "intuition",
+                "timing"
+            ]
+        }
+    },
+    "346": {
+        "answer": {
+            "zh-TW": "放下一件舊物",
+            "en": "Let go of one old item"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "release",
+                "emotion",
+                "self"
+            ]
+        }
+    },
+    "347": {
+        "answer": {
+            "zh-TW": "帶著好奇去迷路",
+            "en": "Get lost on purpose with curiosity"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "adventure",
+                "reflection",
+                "creativity"
+            ]
+        }
+    },
+    "348": {
+        "answer": {
+            "zh-TW": "留出一個下午給自己",
+            "en": "Block off an afternoon for yourself"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "planning",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "self",
+                "planning"
+            ]
+        }
+    },
+    "349": {
+        "answer": {
+            "zh-TW": "煮一壺茶再談",
+            "en": "Brew a pot of tea before you talk"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "relationships",
+                "ritual"
+            ]
+        }
+    },
+    "350": {
+        "answer": {
+            "zh-TW": "在雨天再想想",
+            "en": "Wait for a rainy day to think again"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "environment",
+                "rest"
+            ]
+        }
+    },
+    "351": {
+        "answer": {
+            "zh-TW": "當作一場遊戲",
+            "en": "Treat it like a game"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "play",
+                "stress-relief",
+                "creativity"
+            ]
+        }
+    },
+    "352": {
+        "answer": {
+            "zh-TW": "把決定畫成漫畫",
+            "en": "Draw the decision as a comic"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "communication",
+                "reflection"
+            ]
+        }
+    },
+    "353": {
+        "answer": {
+            "zh-TW": "用聲音記錄你的想法",
+            "en": "Record your thoughts with your voice"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "self",
+                "planning"
+            ]
+        }
+    },
+    "354": {
+        "answer": {
+            "zh-TW": "給自己一個界線",
+            "en": "Set a boundary for yourself"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "self",
+                "boundaries",
+                "health"
+            ]
+        }
+    },
+    "355": {
+        "answer": {
+            "zh-TW": "發表一個大膽的宣言",
+            "en": "Make a bold statement"
+        },
+        "meta": {
+            "tone": "bold",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "courage",
+                "communication",
+                "identity"
+            ]
+        }
+    },
+    "356": {
+        "answer": {
+            "zh-TW": "向東走三步再回答",
+            "en": "Take three steps east before answering"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "ritual",
+                "play",
+                "intuition"
+            ]
+        }
+    },
+    "357": {
+        "answer": {
+            "zh-TW": "遵循第一個閃過的念頭",
+            "en": "Follow the first thought that flashes"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "intuition",
+            "length": "short",
+            "themes": [
+                "intuition",
+                "decision",
+                "speed"
+            ]
+        }
+    },
+    "358": {
+        "answer": {
+            "zh-TW": "詢問孩子的看法",
+            "en": "Ask a child's opinion"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "perspective",
+                "family"
+            ]
+        }
+    },
+    "359": {
+        "answer": {
+            "zh-TW": "換個標準來衡量",
+            "en": "Use a different metric"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision",
+                "data",
+                "work"
+            ]
+        }
+    },
+    "360": {
+        "answer": {
+            "zh-TW": "問問未來十年的你",
+            "en": "Ask the you ten years from now"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "reflection",
+                "planning",
+                "self"
+            ]
+        }
+    },
+    "361": {
+        "answer": {
+            "zh-TW": "寫下如果不做會怎樣",
+            "en": "Write what happens if you don't do it"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "planning",
+                "decision"
+            ]
+        }
+    },
+    "362": {
+        "answer": {
+            "zh-TW": "寫下如果去做會怎樣",
+            "en": "Write what happens if you do it"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "decision",
+                "action"
+            ]
+        }
+    },
+    "363": {
+        "answer": {
+            "zh-TW": "問問暗戀的人",
+            "en": "Ask your crush"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "courage",
+                "emotion"
+            ]
+        }
+    },
+    "364": {
+        "answer": {
+            "zh-TW": "在屋頂上想想",
+            "en": "Think on the rooftop"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "environment",
+                "perspective",
+                "rest"
+            ]
+        }
+    },
+    "365": {
+        "answer": {
+            "zh-TW": "保持沉默觀察",
+            "en": "Stay silent and observe"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "communication",
+                "strategy",
+                "patience"
+            ]
+        }
+    },
+    "366": {
+        "answer": {
+            "zh-TW": "接受不確定性",
+            "en": "Accept the uncertainty"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "mindset",
+                "risk",
+                "self"
+            ]
+        }
+    },
+    "367": {
+        "answer": {
+            "zh-TW": "肯定是",
+            "en": "Certainly yes"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "368": {
+        "answer": {
+            "zh-TW": "否",
+            "en": "No"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "369": {
+        "answer": {
+            "zh-TW": "也許",
+            "en": "Maybe"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "370": {
+        "answer": {
+            "zh-TW": "可能",
+            "en": "Possibly"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "371": {
+        "answer": {
+            "zh-TW": "大概不會",
+            "en": "Probably not"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "372": {
+        "answer": {
+            "zh-TW": "非常有可能",
+            "en": "Highly likely"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "373": {
+        "answer": {
+            "zh-TW": "短暫的等待會更好",
+            "en": "A short wait will serve you better"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "patience",
+                "planning"
+            ]
+        }
+    },
+    "374": {
+        "answer": {
+            "zh-TW": "立即動手，別再拖延",
+            "en": "Start now; stop delaying"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "action",
+                "discipline",
+                "timing"
+            ]
+        }
+    },
+    "375": {
+        "answer": {
+            "zh-TW": "停下來，重新對齊目標",
+            "en": "Pause and realign your goals"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "self",
+                "work"
+            ]
+        }
+    },
+    "376": {
+        "answer": {
+            "zh-TW": "向內探索原因",
+            "en": "Look inward for the reason"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "self",
+                "reflection",
+                "emotion"
+            ]
+        }
+    },
+    "377": {
+        "answer": {
+            "zh-TW": "向外尋求資源",
+            "en": "Seek resources outside"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "support",
+                "work",
+                "community"
+            ]
+        }
+    },
+    "378": {
+        "answer": {
+            "zh-TW": "換一套說服方案",
+            "en": "Use a different pitch"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "strategic",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "work",
+                "creativity"
+            ]
+        }
+    },
+    "379": {
+        "answer": {
+            "zh-TW": "測試一個最小可行版本",
+            "en": "Test a minimal viable version"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "work",
+                "experimentation",
+                "risk"
+            ]
+        }
+    },
+    "380": {
+        "answer": {
+            "zh-TW": "設定一個計時器",
+            "en": "Set a timer"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "discipline",
+                "action",
+                "timing"
+            ]
+        }
+    },
+    "381": {
+        "answer": {
+            "zh-TW": "問問身旁的人",
+            "en": "Ask the person next to you"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "communication",
+                "support"
+            ]
+        }
+    },
+    "382": {
+        "answer": {
+            "zh-TW": "學習說出需求",
+            "en": "Learn to voice your needs"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "self",
+                "relationships"
+            ]
+        }
+    },
+    "383": {
+        "answer": {
+            "zh-TW": "與人合作會更快",
+            "en": "Collaborate to go faster"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "work",
+                "collaboration",
+                "action"
+            ]
+        }
+    },
+    "384": {
+        "answer": {
+            "zh-TW": "自己完成會更穩",
+            "en": "Doing it yourself will be steadier"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "work",
+                "risk",
+                "control"
+            ]
+        }
+    },
+    "385": {
+        "answer": {
+            "zh-TW": "把它分解成三步",
+            "en": "Break it into three steps"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "planning",
+                "action",
+                "clarity"
+            ]
+        }
+    },
+    "386": {
+        "answer": {
+            "zh-TW": "保留彈性",
+            "en": "Keep some flexibility"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "planning",
+                "risk",
+                "work"
+            ]
+        }
+    },
+    "387": {
+        "answer": {
+            "zh-TW": "在合同上寫清楚",
+            "en": "Write it clearly in the contract"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "work",
+                "risk",
+                "communication"
+            ]
+        }
+    },
+    "388": {
+        "answer": {
+            "zh-TW": "找人幫你審視盲點",
+            "en": "Have someone review your blind spots"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "support",
+                "work",
+                "learning"
+            ]
+        }
+    },
+    "389": {
+        "answer": {
+            "zh-TW": "記得慶祝小成果",
+            "en": "Celebrate the small wins"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "celebration",
+                "motivation",
+                "self"
+            ]
+        }
+    },
+    "390": {
+        "answer": {
+            "zh-TW": "先處理風險",
+            "en": "Tackle the risks first"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "risk",
+                "planning",
+                "action"
+            ]
+        }
+    },
+    "391": {
+        "answer": {
+            "zh-TW": "留下退路",
+            "en": "Keep an exit path"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "risk",
+                "planning",
+                "strategy"
+            ]
+        }
+    },
+    "392": {
+        "answer": {
+            "zh-TW": "別安排在星期五",
+            "en": "Don't schedule it on Friday"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "work",
+                "rest"
+            ]
+        }
+    },
+    "393": {
+        "answer": {
+            "zh-TW": "把截止日提前",
+            "en": "Move the deadline forward"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "planning",
+                "discipline",
+                "work"
+            ]
+        }
+    },
+    "394": {
+        "answer": {
+            "zh-TW": "允許自己失敗一次",
+            "en": "Allow yourself one failure"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "self",
+                "learning",
+                "mindset"
+            ]
+        }
+    },
+    "395": {
+        "answer": {
+            "zh-TW": "邀請不同領域的人",
+            "en": "Invite people from different fields"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "strategic",
+            "length": "medium",
+            "themes": [
+                "community",
+                "creativity",
+                "work"
+            ]
+        }
+    },
+    "396": {
+        "answer": {
+            "zh-TW": "建立每日小習慣",
+            "en": "Build a daily micro-habit"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "discipline",
+                "self",
+                "growth"
+            ]
+        }
+    },
+    "397": {
+        "answer": {
+            "zh-TW": "向海潮許願",
+            "en": "Make a wish to the tides"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "intuition",
+                "nature"
+            ]
+        }
+    },
+    "398": {
+        "answer": {
+            "zh-TW": "點亮一盞夜燈",
+            "en": "Light a night lamp"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "rest",
+                "comfort",
+                "ritual"
+            ]
+        }
+    },
+    "399": {
+        "answer": {
+            "zh-TW": "用幽默化解緊張",
+            "en": "Defuse tension with humor"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "emotion",
+                "stress-relief"
+            ]
+        }
+    },
+    "400": {
+        "answer": {
+            "zh-TW": "沉默也是答案",
+            "en": "Silence is also an answer"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "communication",
+                "mindset"
+            ]
+        }
+    },
+    "401": {
+        "answer": {
+            "zh-TW": "再觀察一天",
+            "en": "Observe for one more day"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "patience",
+                "planning"
+            ]
+        }
+    },
+    "402": {
+        "answer": {
+            "zh-TW": "大聲讀出問題",
+            "en": "Read the question aloud"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "clarity",
+                "communication",
+                "self"
+            ]
+        }
+    },
+    "403": {
+        "answer": {
+            "zh-TW": "為自己拍手",
+            "en": "Applaud yourself"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "celebration",
+                "self",
+                "motivation"
+            ]
+        }
+    },
+    "404": {
+        "answer": {
+            "zh-TW": "專注呼吸",
+            "en": "Focus on your breath"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "mindfulness"
+            ]
+        }
+    },
+    "405": {
+        "answer": {
+            "zh-TW": "保留神秘感",
+            "en": "Keep some mystery"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "communication",
+                "style"
+            ]
+        }
+    },
+    "406": {
+        "answer": {
+            "zh-TW": "說出你真正的擔心",
+            "en": "Say what you're really worried about"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "emotion",
+                "self"
+            ]
+        }
+    },
+    "407": {
+        "answer": {
+            "zh-TW": "把決定延後到上午九點",
+            "en": "Postpone the decision until 9 a.m."
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "planning",
+                "discipline"
+            ]
+        }
+    },
+    "408": {
+        "answer": {
+            "zh-TW": "在日程表上畫個圈",
+            "en": "Draw a circle on your calendar"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "neutral",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "planning",
+                "ritual",
+                "focus"
+            ]
+        }
+    },
+    "409": {
+        "answer": {
+            "zh-TW": "為此寫一首短詩",
+            "en": "Write a short poem for it"
+        },
+        "meta": {
+            "tone": "creative",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "reflection",
+                "emotion"
+            ]
+        }
+    },
+    "410": {
+        "answer": {
+            "zh-TW": "用一副塔羅牌做指引",
+            "en": "Use a tarot deck for guidance"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "intuition",
+                "play"
+            ]
+        }
+    },
+    "411": {
+        "answer": {
+            "zh-TW": "翻看舊照片找線索",
+            "en": "Look through old photos for clues"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "memory",
+                "reflection",
+                "relationships"
+            ]
+        }
+    },
+    "412": {
+        "answer": {
+            "zh-TW": "與長輩共餐後再定",
+            "en": "Decide after a meal with elders"
+        },
+        "meta": {
+            "tone": "respectful",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "family",
+                "community",
+                "reflection"
+            ]
+        }
+    },
+    "413": {
+        "answer": {
+            "zh-TW": "與晚輩散步後再定",
+            "en": "Decide after a walk with younger ones"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "family",
+                "community",
+                "reflection"
+            ]
+        }
+    },
+    "414": {
+        "answer": {
+            "zh-TW": "去陌生的街區走走",
+            "en": "Walk in an unfamiliar neighborhood"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "adventure",
+                "perspective",
+                "travel"
+            ]
+        }
+    },
+    "415": {
+        "answer": {
+            "zh-TW": "試著把答案唱出來",
+            "en": "Try singing the answer"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "communication",
+                "play"
+            ]
+        }
+    },
+    "416": {
+        "answer": {
+            "zh-TW": "把問題拆給三個人",
+            "en": "Split the question among three people"
+        },
+        "meta": {
+            "tone": "collaborative",
+            "mood": "positive",
+            "style": "strategic",
+            "length": "medium",
+            "themes": [
+                "collaboration",
+                "work",
+                "communication"
+            ]
+        }
+    },
+    "417": {
+        "answer": {
+            "zh-TW": "在列車到站前決定",
+            "en": "Decide before the train arrives"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "travel",
+                "action"
+            ]
+        }
+    },
+    "418": {
+        "answer": {
+            "zh-TW": "看一部喜劇再回來",
+            "en": "Watch a comedy and come back"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "emotion",
+                "play"
+            ]
+        }
+    },
+    "419": {
+        "answer": {
+            "zh-TW": "讓夜風帶走你的疑慮",
+            "en": "Let the night breeze carry your doubts"
+        },
+        "meta": {
+            "tone": "poetic",
+            "mood": "positive",
+            "style": "poetic",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "rest",
+                "emotion"
+            ]
+        }
+    },
+    "420": {
+        "answer": {
+            "zh-TW": "醒來的第一刻決定",
+            "en": "Decide in your first waking moment"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "intuition",
+                "clarity"
+            ]
+        }
+    },
+    "421": {
+        "answer": {
+            "zh-TW": "在廚房煮點東西時決定",
+            "en": "Decide while cooking something simple"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "environment",
+                "clarity"
+            ]
+        }
+    },
+    "422": {
+        "answer": {
+            "zh-TW": "坐上最近一班公車",
+            "en": "Take the next bus and think on it"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "travel",
+                "reflection",
+                "timing"
+            ]
+        }
+    },
+    "423": {
+        "answer": {
+            "zh-TW": "在博物館盯著一幅畫",
+            "en": "Stare at a painting in a museum"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "environment",
+                "intuition"
+            ]
+        }
+    },
+    "424": {
+        "answer": {
+            "zh-TW": "在河邊丟一顆小石頭",
+            "en": "Throw a pebble into the river"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "release",
+                "nature"
+            ]
+        }
+    },
+    "425": {
+        "answer": {
+            "zh-TW": "晨跑後再決定",
+            "en": "Decide after a morning jog"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "health",
+                "clarity",
+                "timing"
+            ]
+        }
+    },
+    "426": {
+        "answer": {
+            "zh-TW": "在午夜寫下答案",
+            "en": "Write the answer at midnight"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "intuition",
+                "ritual"
+            ]
+        }
+    },
+    "427": {
+        "answer": {
+            "zh-TW": "在落日後的長椅上想",
+            "en": "Think on a bench after sunset"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "environment",
+                "rest",
+                "reflection"
+            ]
+        }
+    },
+    "428": {
+        "answer": {
+            "zh-TW": "去書店最安靜的角落",
+            "en": "Go to the quietest corner of a bookstore"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "learning",
+                "environment",
+                "rest"
+            ]
+        }
+    },
+    "429": {
+        "answer": {
+            "zh-TW": "在郊區夜空下問自己",
+            "en": "Ask yourself under the suburban night sky"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "environment",
+                "reflection"
+            ]
+        }
+    },
+    "430": {
+        "answer": {
+            "zh-TW": "在露台喝一杯水再說",
+            "en": "Have a glass of water on the balcony"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "environment"
+            ]
+        }
+    },
+    "431": {
+        "answer": {
+            "zh-TW": "用蠟燭數到十二",
+            "en": "Count to twelve with a candle"
+        },
+        "meta": {
+            "tone": "ritual",
+            "mood": "ambiguous",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "ritual",
+                "focus",
+                "timing"
+            ]
+        }
+    },
+    "432": {
+        "answer": {
+            "zh-TW": "把答案封進信封",
+            "en": "Seal the answer in an envelope"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "ritual",
+                "commitment",
+                "self"
+            ]
+        }
+    },
+    "433": {
+        "answer": {
+            "zh-TW": "丟硬幣三次觀察模式",
+            "en": "Flip a coin three times and observe the pattern"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "play",
+                "intuition"
+            ]
+        }
+    },
+    "434": {
+        "answer": {
+            "zh-TW": "用撲克牌抽一張",
+            "en": "Draw one card from a deck"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision",
+                "play",
+                "chance"
+            ]
+        }
+    },
+    "435": {
+        "answer": {
+            "zh-TW": "關燈後聽兩分鐘靜默",
+            "en": "Listen to two minutes of silence after lights out"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "rest",
+                "focus",
+                "intuition"
+            ]
+        }
+    },
+    "436": {
+        "answer": {
+            "zh-TW": "把問題寫在玻璃上再擦掉",
+            "en": "Write the question on glass and wipe it off"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "ritual",
+            "length": "medium",
+            "themes": [
+                "release",
+                "reflection",
+                "ritual"
+            ]
+        }
+    },
+    "437": {
+        "answer": {
+            "zh-TW": "把答案寫在手心",
+            "en": "Write the answer on your palm"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "self",
+                "commitment",
+                "intuition"
+            ]
+        }
+    },
+    "438": {
+        "answer": {
+            "zh-TW": "記錄第一個聽到的句子",
+            "en": "Record the first sentence you hear"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition",
+                "listening",
+                "chance"
+            ]
+        }
+    },
+    "439": {
+        "answer": {
+            "zh-TW": "讓骰子決定你的步伐",
+            "en": "Let dice decide your pace"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "decision",
+                "play",
+                "adventure"
+            ]
+        }
+    },
+    "440": {
+        "answer": {
+            "zh-TW": "選擇第一個看到的顏色",
+            "en": "Choose the first color you see"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision",
+                "intuition",
+                "creativity"
+            ]
+        }
+    },
+    "441": {
+        "answer": {
+            "zh-TW": "問問鄰居的意見",
+            "en": "Ask your neighbor's opinion"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "community",
+                "support"
+            ]
+        }
+    },
+    "442": {
+        "answer": {
+            "zh-TW": "給導師發訊息",
+            "en": "Message a mentor"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "relationships",
+                "work",
+                "support"
+            ]
+        }
+    },
+    "443": {
+        "answer": {
+            "zh-TW": "與陌生人交換看法",
+            "en": "Exchange views with a stranger"
+        },
+        "meta": {
+            "tone": "adventurous",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "community",
+                "perspective",
+                "communication"
+            ]
+        }
+    },
+    "444": {
+        "answer": {
+            "zh-TW": "在社群上做個小投票",
+            "en": "Run a small poll online"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "community",
+                "data"
+            ]
+        }
+    },
+    "445": {
+        "answer": {
+            "zh-TW": "請朋友扮演反對者",
+            "en": "Have a friend play the critic"
+        },
+        "meta": {
+            "tone": "strategic",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "work",
+                "risk"
+            ]
+        }
+    },
+    "446": {
+        "answer": {
+            "zh-TW": "問問坐在你左邊的人",
+            "en": "Ask the person on your left"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "community",
+                "communication",
+                "support"
+            ]
+        }
+    },
+    "447": {
+        "answer": {
+            "zh-TW": "問問坐在你右邊的人",
+            "en": "Ask the person on your right"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "situational",
+            "length": "short",
+            "themes": [
+                "community",
+                "communication",
+                "support"
+            ]
+        }
+    },
+    "448": {
+        "answer": {
+            "zh-TW": "跟兄弟姐妹聊五分鐘",
+            "en": "Talk with your sibling for five minutes"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "family",
+                "relationships",
+                "support"
+            ]
+        }
+    },
+    "449": {
+        "answer": {
+            "zh-TW": "跟孩子一起畫答案",
+            "en": "Draw the answer with a child"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "family",
+                "creativity",
+                "perspective"
+            ]
+        }
+    },
+    "450": {
+        "answer": {
+            "zh-TW": "和同事喝杯咖啡討論",
+            "en": "Discuss over coffee with a coworker"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "work",
+                "relationships",
+                "communication"
+            ]
+        }
+    },
+    "451": {
+        "answer": {
+            "zh-TW": "做一張決策表",
+            "en": "Make a decision matrix"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "decision",
+                "work",
+                "planning"
+            ]
+        }
+    },
+    "452": {
+        "answer": {
+            "zh-TW": "設一個番茄鐘",
+            "en": "Set a pomodoro timer"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "discipline",
+                "work",
+                "timing"
+            ]
+        }
+    },
+    "453": {
+        "answer": {
+            "zh-TW": "先完成最小的子任務",
+            "en": "Finish the smallest subtask first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "work",
+                "action"
+            ]
+        }
+    },
+    "454": {
+        "answer": {
+            "zh-TW": "刪掉一項不必要的需求",
+            "en": "Remove one nonessential requirement"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "work",
+                "planning",
+                "risk"
+            ]
+        }
+    },
+    "455": {
+        "answer": {
+            "zh-TW": "寫一封不發送的提案",
+            "en": "Draft a proposal without sending it"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "work",
+                "planning",
+                "reflection"
+            ]
+        }
+    },
+    "456": {
+        "answer": {
+            "zh-TW": "更新風險清單",
+            "en": "Update the risk list"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "risk",
+                "planning",
+                "work"
+            ]
+        }
+    },
+    "457": {
+        "answer": {
+            "zh-TW": "試著說服自己三分鐘",
+            "en": "Try convincing yourself for three minutes"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "self",
+                "decision",
+                "mindset"
+            ]
+        }
+    },
+    "458": {
+        "answer": {
+            "zh-TW": "畫出三個假設",
+            "en": "Sketch three hypotheses"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "planning",
+                "work",
+                "creativity"
+            ]
+        }
+    },
+    "459": {
+        "answer": {
+            "zh-TW": "估計最壞會花多少",
+            "en": "Estimate the worst cost"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "money",
+                "planning"
+            ]
+        }
+    },
+    "460": {
+        "answer": {
+            "zh-TW": "先問為什麼三次",
+            "en": "Ask why three times first"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "planning",
+                "clarity",
+                "learning"
+            ]
+        }
+    },
+    "461": {
+        "answer": {
+            "zh-TW": "喝一杯溫水",
+            "en": "Drink a cup of warm water"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "health",
+                "rest",
+                "self"
+            ]
+        }
+    },
+    "462": {
+        "answer": {
+            "zh-TW": "做十次深呼吸",
+            "en": "Take ten deep breaths"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "focus"
+            ]
+        }
+    },
+    "463": {
+        "answer": {
+            "zh-TW": "伸展肩頸",
+            "en": "Stretch your neck and shoulders"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "health",
+                "rest",
+                "self"
+            ]
+        }
+    },
+    "464": {
+        "answer": {
+            "zh-TW": "小睡二十分鐘",
+            "en": "Take a twenty-minute nap"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "rest",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "clarity"
+            ]
+        }
+    },
+    "465": {
+        "answer": {
+            "zh-TW": "走樓梯兩層",
+            "en": "Walk two flights of stairs"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "health",
+                "action",
+                "clarity"
+            ]
+        }
+    },
+    "466": {
+        "answer": {
+            "zh-TW": "對鏡子微笑",
+            "en": "Smile in the mirror"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "ritual",
+            "length": "short",
+            "themes": [
+                "self",
+                "emotion",
+                "ritual"
+            ]
+        }
+    },
+    "467": {
+        "answer": {
+            "zh-TW": "洗個熱水澡",
+            "en": "Take a warm shower"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "rest",
+            "length": "short",
+            "themes": [
+                "health",
+                "rest",
+                "comfort"
+            ]
+        }
+    },
+    "468": {
+        "answer": {
+            "zh-TW": "泡腳十分鐘",
+            "en": "Soak your feet for ten minutes"
+        },
+        "meta": {
+            "tone": "calming",
+            "mood": "positive",
+            "style": "rest",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "ritual"
+            ]
+        }
+    },
+    "469": {
+        "answer": {
+            "zh-TW": "做五次拜日式",
+            "en": "Do five sun salutations"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "health",
+                "action",
+                "clarity"
+            ]
+        }
+    },
+    "470": {
+        "answer": {
+            "zh-TW": "喝杯花草茶",
+            "en": "Have some herbal tea"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "rest",
+            "length": "short",
+            "themes": [
+                "rest",
+                "health",
+                "comfort"
+            ]
+        }
+    },
+    "471": {
+        "answer": {
+            "zh-TW": "把恐懼寫下來",
+            "en": "Write down what you're afraid of"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "self",
+                "emotion",
+                "clarity"
+            ]
+        }
+    },
+    "472": {
+        "answer": {
+            "zh-TW": "把期望降到一半",
+            "en": "Cut your expectations in half"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "mindset",
+                "risk",
+                "self"
+            ]
+        }
+    },
+    "473": {
+        "answer": {
+            "zh-TW": "想像最好的結果",
+            "en": "Imagine the best outcome"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "mindset",
+                "vision",
+                "motivation"
+            ]
+        }
+    },
+    "474": {
+        "answer": {
+            "zh-TW": "想像最壞的結果",
+            "en": "Imagine the worst outcome"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "mindset",
+                "planning"
+            ]
+        }
+    },
+    "475": {
+        "answer": {
+            "zh-TW": "把成敗都視為學習",
+            "en": "Treat both success and failure as learning"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "mindset",
+                "growth",
+                "self"
+            ]
+        }
+    },
+    "476": {
+        "answer": {
+            "zh-TW": "接受暫時的模糊",
+            "en": "Accept temporary fuzziness"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "ambiguous",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "mindset",
+                "patience",
+                "risk"
+            ]
+        }
+    },
+    "477": {
+        "answer": {
+            "zh-TW": "把步伐放慢",
+            "en": "Slow your pace"
+        },
+        "meta": {
+            "tone": "gentle",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "timing",
+                "self",
+                "rest"
+            ]
+        }
+    },
+    "478": {
+        "answer": {
+            "zh-TW": "把步伐加快",
+            "en": "Speed up your pace"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "action",
+                "timing",
+                "discipline"
+            ]
+        }
+    },
+    "479": {
+        "answer": {
+            "zh-TW": "保持對未知的好奇",
+            "en": "Stay curious about the unknown"
+        },
+        "meta": {
+            "tone": "encouraging",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "mindset",
+                "adventure",
+                "learning"
+            ]
+        }
+    },
+    "480": {
+        "answer": {
+            "zh-TW": "把自己的界線畫出來",
+            "en": "Draw your boundaries"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "boundaries",
+                "self",
+                "relationships"
+            ]
+        }
+    },
+    "481": {
+        "answer": {
+            "zh-TW": "用即興方式回答",
+            "en": "Answer improv style"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "play",
+                "communication",
+                "creativity"
+            ]
+        }
+    },
+    "482": {
+        "answer": {
+            "zh-TW": "用 rap 唱出來",
+            "en": "Rap it out"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "play",
+                "creativity",
+                "communication"
+            ]
+        }
+    },
+    "483": {
+        "answer": {
+            "zh-TW": "讓骰子決定午餐",
+            "en": "Let dice choose your lunch"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "humor",
+            "length": "short",
+            "themes": [
+                "play",
+                "chance",
+                "rest"
+            ]
+        }
+    },
+    "484": {
+        "answer": {
+            "zh-TW": "講一個關於它的冷笑話",
+            "en": "Tell a bad joke about it"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "humor",
+            "length": "medium",
+            "themes": [
+                "communication",
+                "play",
+                "stress-relief"
+            ]
+        }
+    },
+    "485": {
+        "answer": {
+            "zh-TW": "讓寵物決定方向",
+            "en": "Let your pet choose the direction"
+        },
+        "meta": {
+            "tone": "humor",
+            "mood": "positive",
+            "style": "situational",
+            "length": "medium",
+            "themes": [
+                "relationships",
+                "play",
+                "adventure"
+            ]
+        }
+    },
+    "486": {
+        "answer": {
+            "zh-TW": "使用表情符號選一個",
+            "en": "Pick an emoji as your answer"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "short",
+            "themes": [
+                "play",
+                "communication",
+                "creativity"
+            ]
+        }
+    },
+    "487": {
+        "answer": {
+            "zh-TW": "用紅黃綠標示它",
+            "en": "Label it red, yellow, or green"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "decision",
+                "planning",
+                "risk"
+            ]
+        }
+    },
+    "488": {
+        "answer": {
+            "zh-TW": "假裝你是電影角色",
+            "en": "Pretend you're a movie character"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "play",
+                "creativity",
+                "perspective"
+            ]
+        }
+    },
+    "489": {
+        "answer": {
+            "zh-TW": "想像這是童話劇情",
+            "en": "Imagine this as a fairy tale plot"
+        },
+        "meta": {
+            "tone": "poetic",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "play",
+                "creativity",
+                "emotion"
+            ]
+        }
+    },
+    "490": {
+        "answer": {
+            "zh-TW": "把它寫成歌詞的一句",
+            "en": "Turn it into one lyric line"
+        },
+        "meta": {
+            "tone": "creative",
+            "mood": "positive",
+            "style": "creativity",
+            "length": "medium",
+            "themes": [
+                "creativity",
+                "communication",
+                "emotion"
+            ]
+        }
+    },
+    "491": {
+        "answer": {
+            "zh-TW": "等到下個整點再決定",
+            "en": "Decide at the next hour"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "planning",
+                "discipline"
+            ]
+        }
+    },
+    "492": {
+        "answer": {
+            "zh-TW": "在日出時回答",
+            "en": "Answer at sunrise"
+        },
+        "meta": {
+            "tone": "mystic",
+            "mood": "positive",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "ritual",
+                "clarity"
+            ]
+        }
+    },
+    "493": {
+        "answer": {
+            "zh-TW": "在午休前處理",
+            "en": "Handle it before lunch"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "timing",
+            "length": "short",
+            "themes": [
+                "timing",
+                "work",
+                "discipline"
+            ]
+        }
+    },
+    "494": {
+        "answer": {
+            "zh-TW": "給自己二十四小時觀察",
+            "en": "Give yourself twenty-four hours to observe"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "timing",
+                "patience",
+                "planning"
+            ]
+        }
+    },
+    "495": {
+        "answer": {
+            "zh-TW": "不要超過三分鐘思考",
+            "en": "Think for no more than three minutes"
+        },
+        "meta": {
+            "tone": "decisive",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "discipline",
+                "timing",
+                "decision"
+            ]
+        }
+    },
+    "496": {
+        "answer": {
+            "zh-TW": "保留第一個反應",
+            "en": "Keep your initial reaction"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "intuition",
+                "decision",
+                "self"
+            ]
+        }
+    },
+    "497": {
+        "answer": {
+            "zh-TW": "這次選擇較簡單的路",
+            "en": "Take the simpler path this time"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "risk",
+                "planning"
+            ]
+        }
+    },
+    "498": {
+        "answer": {
+            "zh-TW": "這次選擇較困難的路",
+            "en": "Take the harder path this time"
+        },
+        "meta": {
+            "tone": "bold",
+            "mood": "positive",
+            "style": "direct",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "growth",
+                "risk"
+            ]
+        }
+    },
+    "499": {
+        "answer": {
+            "zh-TW": "直接說是看看",
+            "en": "Try saying yes immediately"
+        },
+        "meta": {
+            "tone": "bold",
+            "mood": "positive",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision",
+                "action",
+                "courage"
+            ]
+        }
+    },
+    "500": {
+        "answer": {
+            "zh-TW": "直接說不看看",
+            "en": "Try saying no immediately"
+        },
+        "meta": {
+            "tone": "bold",
+            "mood": "neutral",
+            "style": "direct",
+            "length": "short",
+            "themes": [
+                "decision",
+                "boundaries",
+                "action"
+            ]
         }
     }
 }

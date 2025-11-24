@@ -48,6 +48,13 @@ async function handleRequest(request) {
         response = new Response(JSON.stringify({ nasdaq100: nasdaq100Data }), {
             headers: { 'Content-Type': 'application/json' }
         });
+    } else if (url.pathname === '/answersWithMeta') {
+        const lang = url.searchParams.get('lang') || 'zh-TW';
+        const filters = extractMetaFilters(url.searchParams);
+        const payload = await getRandomAnswerWithMeta(lang, filters);
+        response = new Response(JSON.stringify(payload), {
+            headers: { 'Content-Type': 'application/json' }
+        });
     } else if (url.pathname === '/dowjones') {
         const dowjonesData = await ANSWERS_BOOK.get("dowjones", "json");
         response = new Response(JSON.stringify({ dowjones: dowjonesData }), {
@@ -92,6 +99,60 @@ async function getRandomAnswerFromKV(lang) {
 		console.error('Error fetching random answer:', error);
 		return `Error: ${error.message}`;
 	}
+}
+
+// 获取包含 meta 的随机答案，可依 query 过滤
+async function getRandomAnswerWithMeta(lang, filters) {
+	const data = await ANSWERS_BOOK.get("answersbook", "json");
+
+	if (!data) {
+		throw new Error('KV data is null or undefined');
+	}
+
+	const entries = Object.entries(data).filter(([, value]) => matchesFilters(value.meta, filters));
+
+	if (entries.length === 0) {
+		throw new Error('No answers match the provided filters');
+	}
+
+	const [id, value] = entries[Math.floor(Math.random() * entries.length)];
+	const localized = value.answer[lang] || value.answer['zh-TW'] || value.answer['en'];
+
+	return {
+		id,
+		answer: localized,
+		answer_i18n: value.answer,
+		meta: value.meta
+	};
+}
+
+function matchesFilters(meta = {}, filters) {
+	if (!meta) return false;
+	if (filters.tone && meta.tone !== filters.tone) return false;
+	if (filters.mood && meta.mood !== filters.mood) return false;
+	if (filters.style && meta.style !== filters.style) return false;
+	if (filters.length && meta.length !== filters.length) return false;
+	if (filters.themes.length > 0) {
+		const themes = Array.isArray(meta.themes) ? meta.themes : [];
+		if (!filters.themes.some(theme => themes.includes(theme))) return false;
+	}
+	return true;
+}
+
+function extractMetaFilters(searchParams) {
+	const parseList = (key) => {
+		const raw = searchParams.get(key);
+		if (!raw) return [];
+		return raw.split(',').map(v => v.trim()).filter(Boolean);
+	};
+
+	return {
+		tone: searchParams.get('tone') || '',
+		mood: searchParams.get('mood') || '',
+		style: searchParams.get('style') || '',
+		length: searchParams.get('length') || '',
+		themes: parseList('themes')
+	};
 }
 
 // 从 KV 中获取随机 GRE 单词
