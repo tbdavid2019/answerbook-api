@@ -21,6 +21,13 @@
   curl http://answerbook.david888.com/?lang=en
   ```
 
+- **Book of Answers with Meta (filtered by tone/themes)**  
+  **解答之書（含 meta，依 tone/themes 過濾）**:
+  ```bash
+  # 英文、語氣 playful，主題包含 play 或 creativity
+  curl "http://answerbook.david888.com/answersWithMeta?lang=en&tone=playful&themes=play,creativity"
+  ```
+
 - **Random Password Generator**  
   **隨機密碼產生器**:
   ```bash
