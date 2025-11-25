@@ -1,5 +1,5 @@
 # Logs
-
+.venv/
 logs
 _.log
 npm-debug.log_
@@ -8,6 +8,7 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+.DS_Store
 # Diagnostic reports (https://nodejs.org/api/report.html)
 
 report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json

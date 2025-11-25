@@ -1,4 +1,3 @@
-
 ## DEMO
 
 要在現有的 `README.md` 文件上添加新的說明，並保持與現有內容一致，你可以在 `DEMO` 區塊中加入新的 GRE 單字 API 的說明。
@@ -19,6 +18,12 @@
   **解答之書API. 英文**:
   ```bash
   curl http://answerbook.david888.com/?lang=en
+  ```
+
+- **Book of Answers API (Original Version)**  
+  **解答之書API. 書本原版**:
+  ```bash
+  curl http://answerbook.david888.com/answersOriginal
   ```
 
 - **Book of Answers with Meta (filtered by tone/themes)**  
@@ -97,6 +102,9 @@ It also includes an endpoint for generating secure random passwords.
 - **Book of Answers Response API**: Returns a random answer from the `answersbook_i18n.json` file.  
   **解答之書的回答 API**：從 `answersbook_i18n.json` 文件中返回隨機解答。
 
+- **Book of Answers API (Original Version)**: Returns a random answer from the original 350 entries (`answersbook_original_enriched.json`).  
+  **解答之書API (原版)**：從原版 350 條解答 (`answersbook_original_enriched.json`) 中返回隨機解答。
+
 - **Book of Answers with Meta API**: Returns a random answer plus its `meta` (tone/mood/style/length/themes) and supports filter-by-meta.  
   **解答之書（含 meta）API**：返回隨機答案與 `meta`，可依 meta 過濾。
 
@@ -138,7 +146,31 @@ It also includes an endpoint for generating secure random passwords.
   }
   ```
 
-### 2. Book of Answers with Meta API | 解答之書（含 meta）API
+### 2. Book of Answers API (Original Version) | 解答之書API (原版)
+
+- **Endpoint**: `GET /answersOriginal`  
+  **端點**: `GET /answersOriginal`
+
+- **Language Switch | 切換語言**:
+*** 預設繁體中文  
+  - English: `GET /answersOriginal?lang=en`  
+  - 繁體中文: `GET /answersOriginal?lang=zh-TW`
+
+- **Description**: Returns a random answer from the original 350 entries (`answersbook_original_enriched.json`).  
+  **描述**: 從原版 350 條解答 (`answersbook_original_enriched.json`) 中返回隨機解答。
+
+- **Response Format**:  
+  **返回格式**:
+  ```json
+  {
+    "answer": {
+      "zh-TW": "隨機中文答案",
+      "en": "Random English answer"
+    }
+  }
+  ```
+
+### 3. Book of Answers with Meta API | 解答之書（含 meta）API
 
 - **Endpoint**: `GET /answersWithMeta`  
   **端點**: `GET /answersWithMeta`
@@ -169,7 +201,7 @@ It also includes an endpoint for generating secure random passwords.
   }
   ```
 
-### 3. Random Password Generator API | 隨機密碼生成器 API
+### 4. Random Password Generator API | 隨機密碼生成器 API
 
 - **Endpoint**: `GET /RandomPassword`  
   **端點**: `GET /RandomPassword`

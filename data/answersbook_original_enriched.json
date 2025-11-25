@@ -1,0 +1,5304 @@
+{
+    "1": {
+        "answer": {
+            "zh-TW": "你不會失望的",
+            "en": "YOU WILL NOT BE DISAPPOINTED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "2": {
+        "answer": {
+            "zh-TW": "表達你的感激",
+            "en": "SHOW YOUR APPRECIATION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "3": {
+        "answer": {
+            "zh-TW": "你的行動會改善現狀",
+            "en": "YOUR ACTIONS WILL IMPROVE THINGS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "4": {
+        "answer": {
+            "zh-TW": "別指望了",
+            "en": "DON’T BET ON IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "money",
+                "timing"
+            ]
+        }
+    },
+    "5": {
+        "answer": {
+            "zh-TW": "採取冒險的態度",
+            "en": "ADOPT AN ADVENTUROUS ATTITUDE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "6": {
+        "answer": {
+            "zh-TW": "聽從專家的建議",
+            "en": "FOLLOW THE ADVICE OF EXPERTS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "7": {
+        "answer": {
+            "zh-TW": "你可能會發現自己無法妥協",
+            "en": "YOU COULD FIND YOURSELF UNABLE TO COMPROMISE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "8": {
+        "answer": {
+            "zh-TW": "專注於你的家庭生活",
+            "en": "FOCUS ON YOUR HOME LIFE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "9": {
+        "answer": {
+            "zh-TW": "調查清楚，然後享受它",
+            "en": "INVESTIGATE AND THEN ENJOY IT"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "10": {
+        "answer": {
+            "zh-TW": "絕對是",
+            "en": "DEFINITELY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "11": {
+        "answer": {
+            "zh-TW": "只做一次",
+            "en": "ONLY DO IT ONCE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "12": {
+        "answer": {
+            "zh-TW": "你可能會遇到反對",
+            "en": "YOU MAY HAVE OPPOSITION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "13": {
+        "answer": {
+            "zh-TW": "它將保持不可預測",
+            "en": "IT WILL REMAIN UNPREDICTABLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "14": {
+        "answer": {
+            "zh-TW": "你需要採取主動",
+            "en": "YOU’LL NEED TO TAKE THE INITIATIVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "15": {
+        "answer": {
+            "zh-TW": "把它視為一個機會",
+            "en": "CONSIDER IT AN OPPORTUNITY"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "16": {
+        "answer": {
+            "zh-TW": "深思熟慮",
+            "en": "BE DELIBERATE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "17": {
+        "answer": {
+            "zh-TW": "絕對不是",
+            "en": "ABSOLUTELY NOT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "18": {
+        "answer": {
+            "zh-TW": "帶著頑皮的好奇心去探索",
+            "en": "EXPLORE IT WITH PLAYFUL CURIOSITY"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "19": {
+        "answer": {
+            "zh-TW": "也許等你長大一點",
+            "en": "PERHAPS, WHEN YOU’RE OLDER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
+        }
+    },
+    "20": {
+        "answer": {
+            "zh-TW": "愉快地確信它",
+            "en": "BE DELIGHTFULLY SURE OF IT"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "intuition"
+            ]
+        }
+    },
+    "21": {
+        "answer": {
+            "zh-TW": "最好等待",
+            "en": "BETTER TO WAIT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "money",
+                "timing"
+            ]
+        }
+    },
+    "22": {
+        "answer": {
+            "zh-TW": "重新排列重要事項的優先順序",
+            "en": "REPRIORITIZE WHAT IS IMPORTANT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "23": {
+        "answer": {
+            "zh-TW": "看起來是確定的",
+            "en": "IT SEEMS ASSURED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "24": {
+        "answer": {
+            "zh-TW": "為它創造更多空間",
+            "en": "CREATE MORE SPACE FOR IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "25": {
+        "answer": {
+            "zh-TW": "儘早做",
+            "en": "DO IT EARLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "26": {
+        "answer": {
+            "zh-TW": "保守秘密",
+            "en": "KEEP IT TO YOURSELF"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "27": {
+        "answer": {
+            "zh-TW": "讓自己先休息一下",
+            "en": "ALLOW YOURSELF TO REST FIRST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "28": {
+        "answer": {
+            "zh-TW": "這是明智的",
+            "en": "IT IS SENSIBLE"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "29": {
+        "answer": {
+            "zh-TW": "你得見機行事",
+            "en": "YOU’LL HAVE TO MAKE IT UP AS YOU GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "30": {
+        "answer": {
+            "zh-TW": "結果可能會發生令人震驚的事件",
+            "en": "STARTLING EVENTS MAY OCCUR AS A RESULT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "31": {
+        "answer": {
+            "zh-TW": "答案可能會以另一種語言出現",
+            "en": "THE ANSWER MAY COME TO YOU IN ANOTHER LANGUAGE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "32": {
+        "answer": {
+            "zh-TW": "你需要去適應",
+            "en": "YOU WILL NEED TO ACCOMMODATE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "33": {
+        "answer": {
+            "zh-TW": "值得懷疑",
+            "en": "DOUBT IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "34": {
+        "answer": {
+            "zh-TW": "這會帶來好運",
+            "en": "IT WILL BRING GOOD LUCK"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "35": {
+        "answer": {
+            "zh-TW": "這可能具有挑戰性，但你會發現其中的價值",
+            "en": "IT MAY BE CHALLENGING, BUT YOU WILL FIND VALUE IN IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "36": {
+        "answer": {
+            "zh-TW": "要有耐心",
+            "en": "BE PATIENT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "37": {
+        "answer": {
+            "zh-TW": "你會發現你需要知道的一切",
+            "en": "YOU WILL FIND OUT EVERYTHING YOU’LL NEED TO KNOW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "38": {
+        "answer": {
+            "zh-TW": "這與另一種情況有實質性的聯繫",
+            "en": "THERE IS A SUBSTANTIAL LINK TO ANOTHER SITUATION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "39": {
+        "answer": {
+            "zh-TW": "觀察並看看會發生什麼",
+            "en": "WATCH AND SEE WHAT HAPPENS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "40": {
+        "answer": {
+            "zh-TW": "你現在比以往任何時候都更清楚",
+            "en": "YOU KNOW BETTER NOW THAN EVER BEFORE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "41": {
+        "answer": {
+            "zh-TW": "這會影響別人對你的看法",
+            "en": "IT WILL AFFECT HOW OTHERS SEE YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "42": {
+        "answer": {
+            "zh-TW": "重新考慮你的方法",
+            "en": "RECONSIDER YOUR APPROACH"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "43": {
+        "answer": {
+            "zh-TW": "你會很高興你這麼做了",
+            "en": "YOU’LL BE HAPPY YOU DID"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "44": {
+        "answer": {
+            "zh-TW": "白紙黑字寫下來",
+            "en": "GET IT IN WRITING"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "45": {
+        "answer": {
+            "zh-TW": "目前不利",
+            "en": "UNFAVORABLE AT THIS TIME"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "46": {
+        "answer": {
+            "zh-TW": "這不是一件可以掉以輕心的事情",
+            "en": "IT IS NOT SOMETHING TO BE TAKEN LIGHTLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "47": {
+        "answer": {
+            "zh-TW": "盡你所能去升級",
+            "en": "UPGRADE IN ANY WAY YOU CAN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "48": {
+        "answer": {
+            "zh-TW": "如果你照著吩咐去做",
+            "en": "IF YOU DO AS YOU’RE TOLD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "49": {
+        "answer": {
+            "zh-TW": "如果做得好就行；如果做不好，就別做",
+            "en": "IF IT’S DONE WELL; IF NOT, DON’T DO IT AT ALL"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "50": {
+        "answer": {
+            "zh-TW": "現在不要要求更多",
+            "en": "DON’T ASK FOR ANY MORE AT THIS TIME"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "51": {
+        "answer": {
+            "zh-TW": "避免第一個解決方案",
+            "en": "AVOID THE FIRST SOLUTION"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "52": {
+        "answer": {
+            "zh-TW": "你將擁有最終決定權",
+            "en": "YOU’LL GET THE FINAL WORD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "53": {
+        "answer": {
+            "zh-TW": "以更輕鬆的步伐前進",
+            "en": "PROCEED AT A MORE RELAXED PACE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "54": {
+        "answer": {
+            "zh-TW": "最好的解決方案可能不是顯而易見的那個",
+            "en": "THE BEST SOLUTION MAY NOT BE THE OBVIOUS ONE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "55": {
+        "answer": {
+            "zh-TW": "保持靈活",
+            "en": "REMAIN FLEXIBLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "56": {
+        "answer": {
+            "zh-TW": "遵守規則",
+            "en": "RESPECT THE RULES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "57": {
+        "answer": {
+            "zh-TW": "帶頭",
+            "en": "TAKE THE LEAD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "58": {
+        "answer": {
+            "zh-TW": "深思熟慮地選擇你的措辭",
+            "en": "CHOOSE YOUR WORDS THOUGHTFULLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "59": {
+        "answer": {
+            "zh-TW": "你可能堅持著一個過時的理想",
+            "en": "YOU MAY BE HANGING ON TO AN OUTDATED IDEAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "60": {
+        "answer": {
+            "zh-TW": "可能會有一番掙扎",
+            "en": "THERE MAY BE A STRUGGLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "61": {
+        "answer": {
+            "zh-TW": "你將擁有你需要的熱情",
+            "en": "YOU’LL HAVE THE ENTHUSIASM YOU’LL NEED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "62": {
+        "answer": {
+            "zh-TW": "只要你說「謝謝」",
+            "en": "PROVIDED YOU SAY “THANK YOU”"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "63": {
+        "answer": {
+            "zh-TW": "享受這個經歷",
+            "en": "ENJOY THE EXPERIENCE"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "64": {
+        "answer": {
+            "zh-TW": "謹慎行事",
+            "en": "APPROACH CAUTIOUSLY"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "65": {
+        "answer": {
+            "zh-TW": "做你自己最好的擁護者",
+            "en": "BE YOUR OWN BEST ADVOCATE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "66": {
+        "answer": {
+            "zh-TW": "為別人感到高興",
+            "en": "BE HAPPY FOR ANOTHER"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "67": {
+        "answer": {
+            "zh-TW": "注意細節",
+            "en": "PAY ATTENTION TO THE DETAILS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "68": {
+        "answer": {
+            "zh-TW": "走路要小心",
+            "en": "WATCH YOUR STEP AS YOU GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "69": {
+        "answer": {
+            "zh-TW": "大聲說出來",
+            "en": "SPEAK UP ABOUT IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "70": {
+        "answer": {
+            "zh-TW": "別猶豫",
+            "en": "DON’T HESITATE"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "71": {
+        "answer": {
+            "zh-TW": "這是制定新計劃的好時機",
+            "en": "THIS IS A GOOD TIME TO MAKE A NEW PLAN"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "long",
+            "themes": [
+                "decision",
+                "change"
+            ]
+        }
+    },
+    "72": {
+        "answer": {
+            "zh-TW": "繼續前進",
+            "en": "MOVE ON"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "73": {
+        "answer": {
+            "zh-TW": "堅定的承諾將帶來好的結果",
+            "en": "A STRONG COMMITMENT WILL ACHIEVE GOOD RESULTS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "74": {
+        "answer": {
+            "zh-TW": "這可能不合邏輯",
+            "en": "IT MAY NOT BE LOGICAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "75": {
+        "answer": {
+            "zh-TW": "沒有保證",
+            "en": "THERE IS NO GUARANTEE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "76": {
+        "answer": {
+            "zh-TW": "情況可能會變化得很快",
+            "en": "THE CIRCUMSTANCES COULD CHANGE VERY QUICKLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
+        }
+    },
+    "77": {
+        "answer": {
+            "zh-TW": "別被情緒左右",
+            "en": "DON’T GET CAUGHT UP IN YOUR EMOTIONS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "78": {
+        "answer": {
+            "zh-TW": "轉移你的注意力",
+            "en": "SHIFT YOUR FOCUS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "change"
+            ]
+        }
+    },
+    "79": {
+        "answer": {
+            "zh-TW": "這很重要",
+            "en": "IT IS SIGNIFICANT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "80": {
+        "answer": {
+            "zh-TW": "重新排列重要事項的優先順序",
+            "en": "REPRIORITIZE WHAT IS IMPORTANT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "81": {
+        "answer": {
+            "zh-TW": "列出「為什麼不」的清單",
+            "en": "MAKE A LIST OF WHY NOT"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "negative",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "82": {
+        "answer": {
+            "zh-TW": "別等了",
+            "en": "DON’T WAIT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "83": {
+        "answer": {
+            "zh-TW": "慢慢來",
+            "en": "TAKE YOUR TIME"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "84": {
+        "answer": {
+            "zh-TW": "有充分的理由保持樂觀",
+            "en": "THERE IS GOOD REASON TO BE OPTIMISTIC"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "85": {
+        "answer": {
+            "zh-TW": "這是一件你不會忘記的事",
+            "en": "IT IS SOMETHING YOU WON’T FORGET"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "86": {
+        "answer": {
+            "zh-TW": "尋求更多選擇",
+            "en": "SEEK OUT MORE OPTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "87": {
+        "answer": {
+            "zh-TW": "履行你的義務",
+            "en": "FOLLOW THROUGH ON YOUR OBLIGATIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "88": {
+        "answer": {
+            "zh-TW": "稍後再處理",
+            "en": "DEAL WITH IT LATER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "89": {
+        "answer": {
+            "zh-TW": "向值得信賴的知己透露你的想法",
+            "en": "REVEAL YOUR THOUGHTS TO A TRUSTED CONFIDANTE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "90": {
+        "answer": {
+            "zh-TW": "跟隨別人的腳步",
+            "en": "FOLLOW SOMEONE ELSE’S LEAD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "91": {
+        "answer": {
+            "zh-TW": "你可能會發現自己無法妥協",
+            "en": "YOU COULD FIND YOURSELF UNABLE TO COMPROMISE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "92": {
+        "answer": {
+            "zh-TW": "列出「為什麼」的清單",
+            "en": "MAKE A LIST OF WHY"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "93": {
+        "answer": {
+            "zh-TW": "冒險一試",
+            "en": "TAKE A CHANCE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "94": {
+        "answer": {
+            "zh-TW": "你的行動會改善現狀",
+            "en": "YOUR ACTIONS WILL IMPROVE THINGS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "95": {
+        "answer": {
+            "zh-TW": "尋求幫助",
+            "en": "ASK FOR HELP"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "96": {
+        "answer": {
+            "zh-TW": "知道什麼時候該離開",
+            "en": "KNOW WHEN IT’S TIME TO GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "97": {
+        "answer": {
+            "zh-TW": "接受日常生活的改變",
+            "en": "ACCEPT A CHANGE TO YOUR ROUTINE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
+        }
+    },
+    "98": {
+        "answer": {
+            "zh-TW": "你需要採取主動",
+            "en": "YOU’LL NEED TO TAKE THE INITIATIVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "99": {
+        "answer": {
+            "zh-TW": "你將不得不妥協",
+            "en": "YOU’LL HAVE TO COMPROMISE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "100": {
+        "answer": {
+            "zh-TW": "你需要更多資訊",
+            "en": "YOU NEED MORE INFORMATION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "101": {
+        "answer": {
+            "zh-TW": "相信你最初的想法",
+            "en": "TRUST YOUR ORIGINAL THOUGHT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "102": {
+        "answer": {
+            "zh-TW": "尋找阻力最小的路徑",
+            "en": "SEEK OUT THE PATH OF LEAST RESISTANCE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "103": {
+        "answer": {
+            "zh-TW": "這會引起轟動",
+            "en": "IT WILL CREATE A STIR"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "104": {
+        "answer": {
+            "zh-TW": "你將克服任何障礙",
+            "en": "YOU’LL OVERCOME ANY OBSTACLES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "105": {
+        "answer": {
+            "zh-TW": "最好專注於你的工作",
+            "en": "IT WOULD BE BETTER TO FOCUS ON YOUR WORK"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "money",
+                "work"
+            ]
+        }
+    },
+    "106": {
+        "answer": {
+            "zh-TW": "這將是一種樂趣",
+            "en": "IT WILL BE A PLEASURE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "107": {
+        "answer": {
+            "zh-TW": "慷慨一點",
+            "en": "BE MORE GENEROUS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "108": {
+        "answer": {
+            "zh-TW": "賭一把",
+            "en": "BET ON IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "109": {
+        "answer": {
+            "zh-TW": "好事正在找上你",
+            "en": "GOOD THINGS ARE SEEKING YOU OUT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "110": {
+        "answer": {
+            "zh-TW": "別留遺憾",
+            "en": "DON’T LEAVE ROOM FOR REGRET"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "111": {
+        "answer": {
+            "zh-TW": "做出貢獻",
+            "en": "MAKE A CONTRIBUTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "112": {
+        "answer": {
+            "zh-TW": "發生意外的可能性很高",
+            "en": "MISHAPS ARE HIGHLY PROBABLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "113": {
+        "answer": {
+            "zh-TW": "尋求了結",
+            "en": "PRESS FOR CLOSURE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "114": {
+        "answer": {
+            "zh-TW": "意識到選擇太多可能和選擇太少一樣困難",
+            "en": "REALIZE THAT TOO MANY CHOICES CAN BE AS DIFFICULT AS TOO FEW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "115": {
+        "answer": {
+            "zh-TW": "是",
+            "en": "YES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "116": {
+        "answer": {
+            "zh-TW": "仔細聽；然後你就會知道",
+            "en": "LISTEN CAREFULLY; THEN YOU WILL KNOW"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "negative",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "117": {
+        "answer": {
+            "zh-TW": "答案就在你身邊",
+            "en": "THE ANSWER IS IN YOUR BACKYARD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "118": {
+        "answer": {
+            "zh-TW": "一笑置之",
+            "en": "LAUGH ABOUT IT"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "119": {
+        "answer": {
+            "zh-TW": "讓你的情緒引導你",
+            "en": "LET YOUR EMOTIONS GUIDE YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "120": {
+        "answer": {
+            "zh-TW": "別人將取決於你的選擇",
+            "en": "OTHERS WILL DEPEND ON YOUR CHOICES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "121": {
+        "answer": {
+            "zh-TW": "放手吧",
+            "en": "LET IT GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "122": {
+        "answer": {
+            "zh-TW": "是你該離開的時候了",
+            "en": "IT’S TIME FOR YOU TO GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "123": {
+        "answer": {
+            "zh-TW": "別分心",
+            "en": "DON’T BE DISTRACTED"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "124": {
+        "answer": {
+            "zh-TW": "全力以赴",
+            "en": "GIVE IT ALL YOU’VE GOT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "125": {
+        "answer": {
+            "zh-TW": "你其實不在乎",
+            "en": "YOU DON’T REALLY CARE"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "126": {
+        "answer": {
+            "zh-TW": "你需要考慮其他方法",
+            "en": "YOU’LL NEED TO CONSIDER OTHER WAYS"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "127": {
+        "answer": {
+            "zh-TW": "一年後這就不重要了",
+            "en": "A YEAR FROM NOW IT WON’T MATTER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "128": {
+        "answer": {
+            "zh-TW": "聽從專家的建議",
+            "en": "FOLLOW THE ADVICE OF EXPERTS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "129": {
+        "answer": {
+            "zh-TW": "這可能是非凡的",
+            "en": "IT COULD BE EXTRAORDINARY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "130": {
+        "answer": {
+            "zh-TW": "數到十；再問一次",
+            "en": "COUNT TO TEN; ASK AGAIN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "131": {
+        "answer": {
+            "zh-TW": "表現得好像它已經成真了一樣",
+            "en": "ACT AS THOUGH IT IS ALREADY REAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "132": {
+        "answer": {
+            "zh-TW": "設定優先順序將是過程中的必要部分",
+            "en": "SETTING PRIORITIES WILL BE A NECESSARY PART OF THE PROCESS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "133": {
+        "answer": {
+            "zh-TW": "發揮你的想像力",
+            "en": "USE YOUR IMAGINATION"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "134": {
+        "answer": {
+            "zh-TW": "這會很棒的",
+            "en": "IT’S GONNA BE GREAT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "135": {
+        "answer": {
+            "zh-TW": "為了確保做出最好的決定，保持冷靜",
+            "en": "TO ENSURE THE BEST DECISION, BE CALM"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "136": {
+        "answer": {
+            "zh-TW": "等待",
+            "en": "WAIT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "137": {
+        "answer": {
+            "zh-TW": "你得見機行事",
+            "en": "YOU’LL HAVE TO MAKE IT UP AS YOU GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "138": {
+        "answer": {
+            "zh-TW": "遵循指示",
+            "en": "FOLLOW THE DIRECTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "139": {
+        "answer": {
+            "zh-TW": "毫無疑問",
+            "en": "UNQUESTIONABLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "140": {
+        "answer": {
+            "zh-TW": "當然",
+            "en": "OF COURSE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "141": {
+        "answer": {
+            "zh-TW": "尋找可能隱藏的東西",
+            "en": "LOOK FOR WHAT MAY BE HIDDEN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "142": {
+        "answer": {
+            "zh-TW": "你現在比以往任何時候都更清楚",
+            "en": "YOU KNOW BETTER NOW THAN EVER BEFORE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "143": {
+        "answer": {
+            "zh-TW": "相信你的直覺",
+            "en": "TRUST YOUR INTUITION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "144": {
+        "answer": {
+            "zh-TW": "別錯過機會",
+            "en": "DON’T MISS AN OPPORTUNITY"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "145": {
+        "answer": {
+            "zh-TW": "問你父親",
+            "en": "ASK YOUR FATHER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "146": {
+        "answer": {
+            "zh-TW": "問你母親",
+            "en": "ASK YOUR MOTHER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "147": {
+        "answer": {
+            "zh-TW": "也許等你長大一點",
+            "en": "PERHAPS, WHEN YOU’RE OLDER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
+        }
+    },
+    "148": {
+        "answer": {
+            "zh-TW": "也許",
+            "en": "MAYBE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "timing"
+            ]
+        }
+    },
+    "149": {
+        "answer": {
+            "zh-TW": "先完成其他事情",
+            "en": "FINISH SOMETHING ELSE FIRST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "150": {
+        "answer": {
+            "zh-TW": "你可能會遇到反對",
+            "en": "YOU MAY HAVE OPPOSITION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "151": {
+        "answer": {
+            "zh-TW": "你靠得太近了，看不清",
+            "en": "YOU ARE TOO CLOSE TO SEE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "152": {
+        "answer": {
+            "zh-TW": "情況不明朗",
+            "en": "THE SITUATION IS UNCLEAR"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "timing"
+            ]
+        }
+    },
+    "153": {
+        "answer": {
+            "zh-TW": "需要付出巨大的努力",
+            "en": "A SUBSTANTIAL EFFORT WILL BE REQUIRED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "154": {
+        "answer": {
+            "zh-TW": "讓自己先休息一下",
+            "en": "ALLOW YOURSELF TO REST FIRST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "155": {
+        "answer": {
+            "zh-TW": "機會短期內不會再來",
+            "en": "THE CHANCE WILL NOT COME AGAIN SOON"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "156": {
+        "answer": {
+            "zh-TW": "答案可能會以另一種語言出現",
+            "en": "THE ANSWER MAY COME TO YOU IN ANOTHER LANGUAGE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "157": {
+        "answer": {
+            "zh-TW": "重新考慮你的方法",
+            "en": "RECONSIDER YOUR APPROACH"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "158": {
+        "answer": {
+            "zh-TW": "這是不明智的",
+            "en": "IT WOULD BE INADVISABLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "159": {
+        "answer": {
+            "zh-TW": "需要付出小小的代價",
+            "en": "THERE IS A SMALL PRICE TO PAY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "160": {
+        "answer": {
+            "zh-TW": "等待更好的提議",
+            "en": "WAIT FOR A BETTER OFFER"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "money",
+                "timing"
+            ]
+        }
+    },
+    "161": {
+        "answer": {
+            "zh-TW": "儘快解決",
+            "en": "SETTLE IT SOON"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "162": {
+        "answer": {
+            "zh-TW": "保持客觀",
+            "en": "REMAIN OBJECTIVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "163": {
+        "answer": {
+            "zh-TW": "是，但不要強求",
+            "en": "YES, BUT DON’T FORCE IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing",
+                "decision"
+            ]
+        }
+    },
+    "164": {
+        "answer": {
+            "zh-TW": "看得更清楚一點",
+            "en": "GET A CLEARER VIEW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "165": {
+        "answer": {
+            "zh-TW": "愉快地確信它",
+            "en": "BE DELIGHTFULLY SURE OF IT"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision",
+                "intuition"
+            ]
+        }
+    },
+    "166": {
+        "answer": {
+            "zh-TW": "現在你可以了",
+            "en": "NOW YOU CAN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "167": {
+        "answer": {
+            "zh-TW": "只要你說「謝謝」",
+            "en": "PROVIDED YOU SAY “THANK YOU”"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "168": {
+        "answer": {
+            "zh-TW": "別做得太過火",
+            "en": "DON’T OVERDO IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "169": {
+        "answer": {
+            "zh-TW": "它會支撐你",
+            "en": "IT WILL SUSTAIN YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "170": {
+        "answer": {
+            "zh-TW": "這可能會讓你付出代價",
+            "en": "IT COULD COST YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "171": {
+        "answer": {
+            "zh-TW": "採取冒險的態度",
+            "en": "ADOPT AN ADVENTUROUS ATTITUDE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "172": {
+        "answer": {
+            "zh-TW": "這肯定會讓事情變得有趣",
+            "en": "IT IS SURE TO MAKE THINGS INTERESTING"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "173": {
+        "answer": {
+            "zh-TW": "實際一點",
+            "en": "BE PRACTICAL"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "174": {
+        "answer": {
+            "zh-TW": "你準備好了嗎？",
+            "en": "ARE YOU READY?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "175": {
+        "answer": {
+            "zh-TW": "省省力氣",
+            "en": "SAVE YOUR ENERGY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "176": {
+        "answer": {
+            "zh-TW": "注意細節",
+            "en": "PAY ATTENTION TO THE DETAILS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "177": {
+        "answer": {
+            "zh-TW": "這是肯定的",
+            "en": "IT IS CERTAIN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "178": {
+        "answer": {
+            "zh-TW": "這是不確定的",
+            "en": "IT IS UNCERTAIN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "179": {
+        "answer": {
+            "zh-TW": "結果將是積極的",
+            "en": "THE OUTCOME WILL BE POSITIVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "180": {
+        "answer": {
+            "zh-TW": "你可能不得不放下其他事情",
+            "en": "YOU MAY HAVE TO DROP OTHER THINGS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "181": {
+        "answer": {
+            "zh-TW": "別擔心",
+            "en": "DON’T BE CONCERNED"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "182": {
+        "answer": {
+            "zh-TW": "為意想不到的事情做準備",
+            "en": "PREPARE FOR THE UNEXPECTED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "183": {
+        "answer": {
+            "zh-TW": "告訴別人這對你意味著什麼",
+            "en": "TELL SOMEONE WHAT IT MEANS TO YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "184": {
+        "answer": {
+            "zh-TW": "無論你做什麼，結果都將是持久的",
+            "en": "WHATEVER YOU DO, THE RESULTS WILL BE LASTING"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "185": {
+        "answer": {
+            "zh-TW": "保持開放的心態",
+            "en": "KEEP AN OPEN MIND"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "186": {
+        "answer": {
+            "zh-TW": "這是制定計劃的好時機",
+            "en": "IT’S A GOOD TIME TO MAKE PLANS"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "positive",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "187": {
+        "answer": {
+            "zh-TW": "這可能很有野心，但你會發現其中的價值",
+            "en": "IT MAY BE AMBITIOUS, BUT YOU WILL FIND VALUE IN IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "188": {
+        "answer": {
+            "zh-TW": "這值得麻煩",
+            "en": "IT IS WORTH THE TROUBLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "189": {
+        "answer": {
+            "zh-TW": "你將克服任何障礙",
+            "en": "YOU’LL OVERCOME ANY OBSTACLES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "190": {
+        "answer": {
+            "zh-TW": "相關問題可能會浮出水面",
+            "en": "RELATED ISSUES MAY SURFACE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "191": {
+        "answer": {
+            "zh-TW": "你肯定會得到支持",
+            "en": "YOU ARE SURE TO HAVE SUPPORT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "192": {
+        "answer": {
+            "zh-TW": "協助會使你的進展順利",
+            "en": "ASSISTANCE WOULD MAKE YOUR PROGRESS A SUCCESS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "193": {
+        "answer": {
+            "zh-TW": "合作將是關鍵",
+            "en": "COLLABORATION WILL BE THE KEY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "194": {
+        "answer": {
+            "zh-TW": "尋求更多選擇",
+            "en": "SEEK OUT MORE OPTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "195": {
+        "answer": {
+            "zh-TW": "負責",
+            "en": "TAKE CHARGE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "196": {
+        "answer": {
+            "zh-TW": "這不可能失敗",
+            "en": "IT CANNOT FAIL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "197": {
+        "answer": {
+            "zh-TW": "你必須現在行動",
+            "en": "YOU MUST ACT NOW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "198": {
+        "answer": {
+            "zh-TW": "遵守規則",
+            "en": "RESPECT THE RULES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "199": {
+        "answer": {
+            "zh-TW": "溫和的堅持會有回報",
+            "en": "GENTLE PERSISTENCE WILL PAY OFF"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "200": {
+        "answer": {
+            "zh-TW": "你可能會失望",
+            "en": "YOU COULD BE DISAPPOINTED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "201": {
+        "answer": {
+            "zh-TW": "這可能已經是板上釘釘的事了",
+            "en": "IT MAY ALREADY BE A DONE DEAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "202": {
+        "answer": {
+            "zh-TW": "貫徹你的好意",
+            "en": "FOLLOW THROUGH WITH YOUR GOOD INTENTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "203": {
+        "answer": {
+            "zh-TW": "花更多時間決定",
+            "en": "TAKE MORE TIME TO DECIDE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "204": {
+        "answer": {
+            "zh-TW": "履行你的義務",
+            "en": "FOLLOW THROUGH ON YOUR OBLIGATIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "205": {
+        "answer": {
+            "zh-TW": "不要迫於壓力而行動太快",
+            "en": "DON’T BE PRESSURED INTO ACTING TOO QUICKLY"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing",
+                "decision"
+            ]
+        }
+    },
+    "206": {
+        "answer": {
+            "zh-TW": "別忽視顯而易見的事",
+            "en": "DON’T IGNORE THE OBVIOUS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "207": {
+        "answer": {
+            "zh-TW": "別人會尊重你的選擇",
+            "en": "OTHERS WILL RESPECT YOUR CHOICES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "208": {
+        "answer": {
+            "zh-TW": "別太實際",
+            "en": "DON’T BE TOO PRACTICAL"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "neutral",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing",
+                "decision"
+            ]
+        }
+    },
+    "209": {
+        "answer": {
+            "zh-TW": "做一個好榜樣",
+            "en": "BE A GOOD ROLE MODEL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "210": {
+        "answer": {
+            "zh-TW": "這不值得爭鬥",
+            "en": "IT’S NOT WORTH A STRUGGLE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "211": {
+        "answer": {
+            "zh-TW": "仔細聽；然後你就會知道",
+            "en": "LISTEN CAREFULLY; THEN YOU WILL KNOW"
+        },
+        "meta": {
+            "tone": "practical",
+            "mood": "negative",
+            "style": "instructional",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "212": {
+        "answer": {
+            "zh-TW": "別忘了玩得開心",
+            "en": "DON’T FORGET TO HAVE FUN"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing",
+                "intuition"
+            ]
+        }
+    },
+    "213": {
+        "answer": {
+            "zh-TW": "別懷疑",
+            "en": "DON’T DOUBT IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "214": {
+        "answer": {
+            "zh-TW": "堅定的承諾將帶來好的結果",
+            "en": "A STRONG COMMITMENT WILL ACHIEVE GOOD RESULTS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "215": {
+        "answer": {
+            "zh-TW": "嘗試一個不太可能的解決方案",
+            "en": "TRY A MORE UNLIKELY SOLUTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "216": {
+        "answer": {
+            "zh-TW": "拋棄舊的解決方案",
+            "en": "LEAVE BEHIND OLD SOLUTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "217": {
+        "answer": {
+            "zh-TW": "保守秘密",
+            "en": "KEEP IT TO YOURSELF"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "218": {
+        "answer": {
+            "zh-TW": "走路要小心",
+            "en": "WATCH YOUR STEP AS YOU GO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "219": {
+        "answer": {
+            "zh-TW": "帶著頑皮的好奇心去探索",
+            "en": "EXPLORE IT WITH PLAYFUL CURIOSITY"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "220": {
+        "answer": {
+            "zh-TW": "別太苛求",
+            "en": "DON’T BE TOO DEMANDING"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "221": {
+        "answer": {
+            "zh-TW": "別留遺憾",
+            "en": "DON’T LEAVE ROOM FOR REGRET"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "222": {
+        "answer": {
+            "zh-TW": "表現得好像它已經成真了一樣",
+            "en": "ACT AS THOUGH IT IS ALREADY REAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "223": {
+        "answer": {
+            "zh-TW": "這不是針對個人的",
+            "en": "IT ISN’T PERSONAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "224": {
+        "answer": {
+            "zh-TW": "堅持不懈",
+            "en": "BE PERSISTENT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "225": {
+        "answer": {
+            "zh-TW": "選擇會讓你快樂的事",
+            "en": "CHOOSE WHAT WILL MAKE YOU HAPPY"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "226": {
+        "answer": {
+            "zh-TW": "別讓金錢決定",
+            "en": "DON’T LET MONEY DECIDE IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "money",
+                "timing"
+            ]
+        }
+    },
+    "227": {
+        "answer": {
+            "zh-TW": "船到橋頭自然直",
+            "en": "IT WILL WORK ITSELF OUT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "work"
+            ]
+        }
+    },
+    "228": {
+        "answer": {
+            "zh-TW": "如果太難，也許它不屬於你",
+            "en": "IF IT’S TOO DIFFICULT, MAYBE IT’S NOT YOURS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "timing"
+            ]
+        }
+    },
+    "229": {
+        "answer": {
+            "zh-TW": "這可能意味著你必須做一些你從未做過的事",
+            "en": "IT COULD MEAN THAT YOU MAY HAVE TO DO SOMETHING THAT YOU’VE NEVER DONE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "230": {
+        "answer": {
+            "zh-TW": "決定你想去哪裡，然後朝那個方向前進",
+            "en": "DECIDE WHERE YOU WANT TO BE AND HEAD IN THAT DIRECTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "231": {
+        "answer": {
+            "zh-TW": "撒網撒得更廣一點",
+            "en": "CAST YOUR NET WIDER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "232": {
+        "answer": {
+            "zh-TW": "不要做任何假設",
+            "en": "MAKE NO ASSUMPTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "233": {
+        "answer": {
+            "zh-TW": "尊重基本原則",
+            "en": "RESPECT THE FUNDAMENTALS"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "234": {
+        "answer": {
+            "zh-TW": "足智多謀",
+            "en": "BE RESOURCEFUL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "235": {
+        "answer": {
+            "zh-TW": "找更多時間",
+            "en": "FIND MORE TIME"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "236": {
+        "answer": {
+            "zh-TW": "無與倫比",
+            "en": "NOTHING WILL COMPARE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "237": {
+        "answer": {
+            "zh-TW": "這將是一個機會",
+            "en": "IT WILL BE AN OPPORTUNITY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "238": {
+        "answer": {
+            "zh-TW": "別放棄你等待的權利",
+            "en": "DON’T GIVE UP YOUR RIGHT TO WAIT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "ambiguous",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "239": {
+        "answer": {
+            "zh-TW": "深思熟慮",
+            "en": "BE DELIBERATE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "240": {
+        "answer": {
+            "zh-TW": "為什麼這對你很重要？",
+            "en": "WHY IS IT IMPORTANT TO YOU?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "241": {
+        "answer": {
+            "zh-TW": "別讓這一刻溜走",
+            "en": "DON’T LET THE MOMENT PASS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "242": {
+        "answer": {
+            "zh-TW": "你會得到你所妥協的",
+            "en": "YOU’LL GET WHAT YOU SETTLE FOR"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "243": {
+        "answer": {
+            "zh-TW": "選擇任何能幫助你成長的事物",
+            "en": "CHOOSE WHATEVER WILL HELP YOU TO GROW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "244": {
+        "answer": {
+            "zh-TW": "仁慈一點",
+            "en": "BE KIND"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "245": {
+        "answer": {
+            "zh-TW": "意識到選擇太多可能和選擇太少一樣困難",
+            "en": "REALIZE THAT TOO MANY CHOICES CAN BE AS DIFFICULT AS TOO FEW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "246": {
+        "answer": {
+            "zh-TW": "冒險一試",
+            "en": "TAKE A CHANCE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "247": {
+        "answer": {
+            "zh-TW": "你將擁有成功所需的一切",
+            "en": "YOU WILL HAVE EVERYTHING NECESSARY FOR YOUR SUCCESS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "248": {
+        "answer": {
+            "zh-TW": "別人可能不贊成",
+            "en": "OTHERS MAY NOT APPROVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "249": {
+        "answer": {
+            "zh-TW": "你將擁有你需要的力量",
+            "en": "YOU’LL HAVE THE STRENGTH YOU’LL NEED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "250": {
+        "answer": {
+            "zh-TW": "開始一場冒險",
+            "en": "INITIATE AN ADVENTURE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "251": {
+        "answer": {
+            "zh-TW": "圓滑一點",
+            "en": "BE TACTFUL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "252": {
+        "answer": {
+            "zh-TW": "你需要考慮其他方法",
+            "en": "YOU’LL NEED TO CONSIDER OTHER WAYS"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "253": {
+        "answer": {
+            "zh-TW": "想個辦法",
+            "en": "FIGURE OUT A WAY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "254": {
+        "answer": {
+            "zh-TW": "這可能是面子問題",
+            "en": "IT COULD BE A MATTER OF PRIDE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "255": {
+        "answer": {
+            "zh-TW": "追求更多樣化",
+            "en": "PURSUE MORE VARIETY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "256": {
+        "answer": {
+            "zh-TW": "別被情緒左右",
+            "en": "DON’T GET CAUGHT UP IN YOUR EMOTIONS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "257": {
+        "answer": {
+            "zh-TW": "盡你所能投入",
+            "en": "PITCH IN WHATEVER YOU CAN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "258": {
+        "answer": {
+            "zh-TW": "早點到",
+            "en": "ARRIVE EARLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "259": {
+        "answer": {
+            "zh-TW": "無論如何",
+            "en": "NO MATTER WHAT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "260": {
+        "answer": {
+            "zh-TW": "你靠得太近了，看不清",
+            "en": "YOU ARE TOO CLOSE TO SEE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "261": {
+        "answer": {
+            "zh-TW": "是",
+            "en": "YES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "262": {
+        "answer": {
+            "zh-TW": "別冒險",
+            "en": "DON’T TAKE A CHANCE"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "263": {
+        "answer": {
+            "zh-TW": "這不是一件可以掉以輕心的事情",
+            "en": "IT IS NOT SOMETHING TO BE TAKEN LIGHTLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "264": {
+        "answer": {
+            "zh-TW": "滿足於現狀，別畫蛇添足",
+            "en": "BE CONTENT TO LEAVE WELL ENOUGH ALONE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "265": {
+        "answer": {
+            "zh-TW": "太過注重細節了",
+            "en": "TOO MUCH ATTENTION IS ON THE DETAILS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "266": {
+        "answer": {
+            "zh-TW": "輕鬆一點",
+            "en": "KEEP IT LIGHT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "267": {
+        "answer": {
+            "zh-TW": "多睡點覺",
+            "en": "GET MORE SLEEP"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "268": {
+        "answer": {
+            "zh-TW": "重新考慮另一種可能性",
+            "en": "RECONSIDER ANOTHER POSSIBILITY"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "269": {
+        "answer": {
+            "zh-TW": "這可能不合邏輯",
+            "en": "IT MAY NOT BE LOGICAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "270": {
+        "answer": {
+            "zh-TW": "答案就在你身邊",
+            "en": "THE ANSWER IS IN YOUR BACKYARD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "271": {
+        "answer": {
+            "zh-TW": "做出貢獻",
+            "en": "MAKE A CONTRIBUTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "272": {
+        "answer": {
+            "zh-TW": "發揮你的想像力",
+            "en": "USE YOUR IMAGINATION"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "273": {
+        "answer": {
+            "zh-TW": "不設限",
+            "en": "KNOW NO LIMITATIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "274": {
+        "answer": {
+            "zh-TW": "建立更大的東西",
+            "en": "BUILD SOMETHING BIGGER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "275": {
+        "answer": {
+            "zh-TW": "目標更高",
+            "en": "AIM HIGHER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "276": {
+        "answer": {
+            "zh-TW": "從容應對",
+            "en": "TAKE IT IN STRIDE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "277": {
+        "answer": {
+            "zh-TW": "有風度一點",
+            "en": "BE A GOOD SPORT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "278": {
+        "answer": {
+            "zh-TW": "帶頭",
+            "en": "TAKE THE LEAD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "279": {
+        "answer": {
+            "zh-TW": "需要付出小小的代價",
+            "en": "THERE IS A SMALL PRICE TO PAY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "280": {
+        "answer": {
+            "zh-TW": "別太挑剔",
+            "en": "DON’T BE TOO CRITICAL"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "281": {
+        "answer": {
+            "zh-TW": "把你的感情放在對的地方",
+            "en": "PUT YOUR FEELINGS IN THE RIGHT PLACE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "282": {
+        "answer": {
+            "zh-TW": "找出它重要的地方",
+            "en": "IDENTIFY WHAT MATTERS ABOUT IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "283": {
+        "answer": {
+            "zh-TW": "事情的結果將取決於你",
+            "en": "HOW THINGS TURN OUT WILL DEPEND ON YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "284": {
+        "answer": {
+            "zh-TW": "尋找可能隱藏的東西",
+            "en": "LOOK FOR WHAT MAY BE HIDDEN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "285": {
+        "answer": {
+            "zh-TW": "讓你的情緒引導你",
+            "en": "LET YOUR EMOTIONS GUIDE YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "286": {
+        "answer": {
+            "zh-TW": "向值得信賴的知己透露你的想法",
+            "en": "REVEAL YOUR THOUGHTS TO A TRUSTED CONFIDANTE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "287": {
+        "answer": {
+            "zh-TW": "仔細看看",
+            "en": "TAKE A CLOSER LOOK"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "288": {
+        "answer": {
+            "zh-TW": "別擔心",
+            "en": "DON’T BE CONCERNED"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "289": {
+        "answer": {
+            "zh-TW": "你可以獨自完成",
+            "en": "YOU CAN DO THIS ON YOUR OWN"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "290": {
+        "answer": {
+            "zh-TW": "尋求幫助",
+            "en": "ASK FOR HELP"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "291": {
+        "answer": {
+            "zh-TW": "為它創造更多空間",
+            "en": "CREATE MORE SPACE FOR IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "292": {
+        "answer": {
+            "zh-TW": "轉移你的注意力",
+            "en": "DIVERT YOUR ATTENTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "293": {
+        "answer": {
+            "zh-TW": "你想要什麼？",
+            "en": "WHAT DO YOU WANT?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "294": {
+        "answer": {
+            "zh-TW": "盡力樹立榜樣",
+            "en": "DO YOUR BEST TO SET THE STANDARD"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "295": {
+        "answer": {
+            "zh-TW": "有充分的理由保持樂觀",
+            "en": "THERE IS GOOD REASON TO BE OPTIMISTIC"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "296": {
+        "answer": {
+            "zh-TW": "別分心",
+            "en": "DON’T BE DISTRACTED"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "297": {
+        "answer": {
+            "zh-TW": "享受新環境",
+            "en": "ENJOY A NEW SETTING"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change",
+                "intuition"
+            ]
+        }
+    },
+    "298": {
+        "answer": {
+            "zh-TW": "你需要去適應",
+            "en": "YOU WILL NEED TO ACCOMMODATE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "299": {
+        "answer": {
+            "zh-TW": "保持客觀",
+            "en": "REMAIN OBJECTIVE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "300": {
+        "answer": {
+            "zh-TW": "告訴別人這對你意味著什麼",
+            "en": "TELL SOMEONE WHAT IT MEANS TO YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "301": {
+        "answer": {
+            "zh-TW": "把它視為一個機會",
+            "en": "CONSIDER IT AN OPPORTUNITY"
+        },
+        "meta": {
+            "tone": "reflective",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "learning"
+            ]
+        }
+    },
+    "302": {
+        "answer": {
+            "zh-TW": "尋找阻力最小的路徑",
+            "en": "SEEK OUT THE PATH OF LEAST RESISTANCE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "303": {
+        "answer": {
+            "zh-TW": "好事正在找上你",
+            "en": "GOOD THINGS ARE SEEKING YOU OUT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "304": {
+        "answer": {
+            "zh-TW": "什麼時候做不重要，重要的是你做了",
+            "en": "IT WON’T MATTER WHEN YOU DO, BUT THAT YOU DO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "305": {
+        "answer": {
+            "zh-TW": "你可能堅持著一個過時的理想",
+            "en": "YOU MAY BE HANGING ON TO AN OUTDATED IDEAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "306": {
+        "answer": {
+            "zh-TW": "這會改變你的運氣",
+            "en": "IT’LL CHANGE YOUR LUCK"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "change"
+            ]
+        }
+    },
+    "307": {
+        "answer": {
+            "zh-TW": "別抗拒",
+            "en": "DON’T RESIST"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "308": {
+        "answer": {
+            "zh-TW": "遵循指示",
+            "en": "FOLLOW THE DIRECTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "309": {
+        "answer": {
+            "zh-TW": "最好的解決方案可能是顯而易見的那個",
+            "en": "THE BEST SOLUTION MAY BE THE OBVIOUS ONE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "long",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "310": {
+        "answer": {
+            "zh-TW": "別太謹慎",
+            "en": "DON’T BE TOO CAUTIOUS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "311": {
+        "answer": {
+            "zh-TW": "你可能會後悔",
+            "en": "YOU MAY REGRET IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "312": {
+        "answer": {
+            "zh-TW": "這對你重要嗎？",
+            "en": "IS IT IMPORTANT TO YOU?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "313": {
+        "answer": {
+            "zh-TW": "謹慎選擇你的措辭",
+            "en": "CHOOSE YOUR WORDS CAREFULLY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "314": {
+        "answer": {
+            "zh-TW": "限制選項",
+            "en": "LIMIT THE OPTIONS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "315": {
+        "answer": {
+            "zh-TW": "集中注意力",
+            "en": "FOCUS YOUR ATTENTION"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "316": {
+        "answer": {
+            "zh-TW": "你不該在外面玩嗎？",
+            "en": "SHOULDN’T YOU BE OUTSIDE PLAYING?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "317": {
+        "answer": {
+            "zh-TW": "這會是一件樂事嗎？",
+            "en": "WOULD IT BE A PLEASURE?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "318": {
+        "answer": {
+            "zh-TW": "準時",
+            "en": "BE ON TIME"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "319": {
+        "answer": {
+            "zh-TW": "問你父親",
+            "en": "ASK YOUR FATHER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "320": {
+        "answer": {
+            "zh-TW": "問你母親",
+            "en": "ASK YOUR MOTHER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "relationships"
+            ]
+        }
+    },
+    "321": {
+        "answer": {
+            "zh-TW": "慢慢來",
+            "en": "TAKE YOUR TIME"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "322": {
+        "answer": {
+            "zh-TW": "是，但不要強求",
+            "en": "YES, BUT DON’T FORCE IT"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing",
+                "decision"
+            ]
+        }
+    },
+    "323": {
+        "answer": {
+            "zh-TW": "還有更多需要知道的",
+            "en": "THERE IS MORE TO KNOW"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "324": {
+        "answer": {
+            "zh-TW": "找出事實",
+            "en": "FIND OUT THE FACTS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "325": {
+        "answer": {
+            "zh-TW": "如果你獨自一人就不行",
+            "en": "NOT IF YOU’RE ALONE"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "326": {
+        "answer": {
+            "zh-TW": "揭露更多細節",
+            "en": "UNCOVER MORE DETAILS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "327": {
+        "answer": {
+            "zh-TW": "你的心不在焉",
+            "en": "YOUR HEART ISN’T IN IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "328": {
+        "answer": {
+            "zh-TW": "為別人感到高興",
+            "en": "BE HAPPY FOR ANOTHER"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "329": {
+        "answer": {
+            "zh-TW": "你受到眷顧",
+            "en": "YOU ARE FAVORED"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "330": {
+        "answer": {
+            "zh-TW": "絕不",
+            "en": "NEVER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "331": {
+        "answer": {
+            "zh-TW": "一年後這就不重要了",
+            "en": "A YEAR FROM NOW IT WON’T MATTER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "332": {
+        "answer": {
+            "zh-TW": "你準備好了嗎？",
+            "en": "ARE YOU READY?"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "333": {
+        "answer": {
+            "zh-TW": "你必須",
+            "en": "YOU MUST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "334": {
+        "answer": {
+            "zh-TW": "不",
+            "en": "NO"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "335": {
+        "answer": {
+            "zh-TW": "節省你的資源",
+            "en": "CONSERVE YOUR RESOURCES"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "336": {
+        "answer": {
+            "zh-TW": "做一個好榜樣",
+            "en": "BE A GOOD ROLE MODEL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "337": {
+        "answer": {
+            "zh-TW": "談判一個更好的交易",
+            "en": "NEGOTIATE A BETTER DEAL"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "338": {
+        "answer": {
+            "zh-TW": "偏愛美好的事物",
+            "en": "FAVOR THE GOOD THINGS"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "339": {
+        "answer": {
+            "zh-TW": "別讓理性毀了它",
+            "en": "DON’T LET IT BE RUINED BY REASON"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    },
+    "340": {
+        "answer": {
+            "zh-TW": "睡一覺再說",
+            "en": "SLEEP ON IT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "341": {
+        "answer": {
+            "zh-TW": "盡力而為",
+            "en": "DO YOUR BEST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "short",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "342": {
+        "answer": {
+            "zh-TW": "這不重要",
+            "en": "IT IS NOT SIGNIFICANT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "343": {
+        "answer": {
+            "zh-TW": "你有很多可以貢獻的",
+            "en": "YOU HAVE SO MUCH TO OFFER"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "344": {
+        "answer": {
+            "zh-TW": "知道什麼對你很重要",
+            "en": "KNOW WHAT’S IMPORTANT TO YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "negative",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "345": {
+        "answer": {
+            "zh-TW": "你值得最好的",
+            "en": "YOU DESERVE THE BEST"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "decision"
+            ]
+        }
+    },
+    "346": {
+        "answer": {
+            "zh-TW": "更好的事情正在找上你",
+            "en": "BETTER THINGS ARE SEEKING YOU OUT"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "money"
+            ]
+        }
+    },
+    "347": {
+        "answer": {
+            "zh-TW": "由你決定",
+            "en": "IT’S UP TO YOU"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "general"
+            ]
+        }
+    },
+    "348": {
+        "answer": {
+            "zh-TW": "選擇讓你快樂的事",
+            "en": "CHOOSE WHAT MAKES YOU HAPPY"
+        },
+        "meta": {
+            "tone": "playful",
+            "mood": "positive",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "349": {
+        "answer": {
+            "zh-TW": "讓你的心引路",
+            "en": "LET YOUR HEART LEAD THE WAY"
+        },
+        "meta": {
+            "tone": "direct",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "intuition"
+            ]
+        }
+    },
+    "350": {
+        "answer": {
+            "zh-TW": "別拘泥於細節",
+            "en": "DON’T GET CAUGHT UP IN THE DETAILS"
+        },
+        "meta": {
+            "tone": "cautious",
+            "mood": "neutral",
+            "style": "oracle",
+            "length": "medium",
+            "themes": [
+                "risk",
+                "timing"
+            ]
+        }
+    }
+}

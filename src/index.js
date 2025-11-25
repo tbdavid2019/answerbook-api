@@ -60,6 +60,12 @@ async function handleRequest(request) {
         response = new Response(JSON.stringify({ dowjones: dowjonesData }), {
             headers: { 'Content-Type': 'application/json' }
         });
+    } else if (url.pathname === '/answersOriginal') {
+        const lang = url.searchParams.get('lang') || 'zh-TW';
+        const answer = await getRandomAnswerOriginalFromKV(lang);
+        response = new Response(JSON.stringify({ answer: answer }), {
+            headers: { 'Content-Type': 'application/json' }
+        });
     } else {
         response = new Response("Invalid request", { status: 404 });
     }    
@@ -97,6 +103,37 @@ async function getRandomAnswerFromKV(lang) {
 		return data[randomKey].answer[lang];
 	} catch (error) {
 		console.error('Error fetching random answer:', error);
+		return `Error: ${error.message}`;
+	}
+}
+
+// 从 KV 中获取随机答案 (Original Enriched)
+async function getRandomAnswerOriginalFromKV(lang) {
+	try {
+		const data = await ANSWERS_BOOK.get("answersbook_original", "json");
+
+		if (!data) {
+			throw new Error('KV data is null or undefined');
+		}
+
+		const keys = Object.keys(data);
+
+		if (keys.length === 0) {
+			throw new Error('No keys found in KV data');
+		}
+
+		const randomKey = keys[Math.floor(Math.random() * keys.length)];
+		
+		if (!data[randomKey].answer || !data[randomKey].answer[lang]) {
+            // Fallback to en if lang not found, or zh-TW
+            const fallback = data[randomKey].answer['en'] || data[randomKey].answer['zh-TW'];
+            if (fallback) return fallback;
+			throw new Error(`No answer found for key: ${randomKey} and language: ${lang}`);
+		}
+
+		return data[randomKey].answer[lang];
+	} catch (error) {
+		console.error('Error fetching random answer original:', error);
 		return `Error: ${error.message}`;
 	}
 }
