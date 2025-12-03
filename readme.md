@@ -175,6 +175,8 @@ This project is a Cloudflare Worker that provides an external API service for ge
 3. **Deploy the Worker | 部署 Worker**:
    \`\`\`bash
    npm run deploy
+   # 或者直接使用 wrangler CLI
+   npx wrangler deploy
    \`\`\`
 
 4. **Sync KV data | 同步 KV 資料**:
