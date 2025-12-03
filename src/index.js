@@ -3,7 +3,7 @@ async function handleRequest(request) {
 
     let response;
     if (url.pathname === '/') {
-        const lang = url.searchParams.get('lang') || 'zh-TW'; 
+        const lang = url.searchParams.get('lang'); 
         const answer = await getRandomAnswerFromKV(lang);
         response = new Response(JSON.stringify({ answer: answer }), {
             headers: { 'Content-Type': 'application/json' }
@@ -61,7 +61,7 @@ async function handleRequest(request) {
             headers: { 'Content-Type': 'application/json' }
         });
     } else if (url.pathname === '/answersOriginal') {
-        const lang = url.searchParams.get('lang') || 'zh-TW';
+        const lang = url.searchParams.get('lang');
         const answer = await getRandomAnswerOriginalFromKV(lang);
         response = new Response(JSON.stringify({ answer: answer }), {
             headers: { 'Content-Type': 'application/json' }
@@ -95,12 +95,20 @@ async function getRandomAnswerFromKV(lang) {
 		}
 
 		const randomKey = keys[Math.floor(Math.random() * keys.length)];
+		const answerData = data[randomKey].answer;
 		
-		if (!data[randomKey].answer || !data[randomKey].answer[lang]) {
-			throw new Error(`No answer found for key: ${randomKey} and language: ${lang}`);
+		if (!answerData) {
+			throw new Error(`No answer found for key: ${randomKey}`);
 		}
 
-		return data[randomKey].answer[lang];
+		// 如果沒有指定語言，返回雙語結果
+		if (!lang) {
+			const zhTW = answerData['zh-TW'] || '';
+			const en = answerData['en'] || '';
+			return `${zhTW}\n${en}`;
+		}
+
+		return answerData[lang] || answerData['zh-TW'] || answerData['en'];
 	} catch (error) {
 		console.error('Error fetching random answer:', error);
 		return `Error: ${error.message}`;
@@ -123,15 +131,20 @@ async function getRandomAnswerOriginalFromKV(lang) {
 		}
 
 		const randomKey = keys[Math.floor(Math.random() * keys.length)];
-		
-		if (!data[randomKey].answer || !data[randomKey].answer[lang]) {
-            // Fallback to en if lang not found, or zh-TW
-            const fallback = data[randomKey].answer['en'] || data[randomKey].answer['zh-TW'];
-            if (fallback) return fallback;
-			throw new Error(`No answer found for key: ${randomKey} and language: ${lang}`);
+		const answerData = data[randomKey].answer;
+
+		if (!answerData) {
+			throw new Error(`No answer found for key: ${randomKey}`);
 		}
 
-		return data[randomKey].answer[lang];
+		// 如果沒有指定語言，返回雙語結果
+		if (!lang) {
+			const zhTW = answerData['zh-TW'] || '';
+			const en = answerData['en'] || '';
+			return `${zhTW}\n${en}`;
+		}
+
+		return answerData[lang] || answerData['zh-TW'] || answerData['en'];
 	} catch (error) {
 		console.error('Error fetching random answer original:', error);
 		return `Error: ${error.message}`;
