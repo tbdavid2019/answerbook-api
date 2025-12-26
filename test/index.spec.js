@@ -88,7 +88,7 @@ describe('Answerbook API Tests', () => {
 	});
 
 	// Moved Root logic validation
-	it('responds to /answers with random answer (Standardized Schema)', async () => {
+	it('responds to /answers with random answer (Legacy Flat Schema)', async () => {
 		const request = new Request('http://example.com/answers');
 		ctx = createExecutionContext();
 		const response = await worker.fetch(request, env, ctx);
@@ -96,9 +96,9 @@ describe('Answerbook API Tests', () => {
 
 		expect(response.status).toBe(200);
 		const data = await response.json();
-		// New Schema: { success: true, data: { answer: ... } }
-		expect(data.success).toBe(true);
-		expect(data.data).toHaveProperty('answer');
+		// Legacy Schema: { answer: ... }
+		expect(data).toHaveProperty('answer');
+		expect(data).not.toHaveProperty('success');
 	});
 
 	// ==================== 新的詞彙 API 測試 ====================

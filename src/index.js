@@ -15,36 +15,27 @@ const SuccessResponseSchema = z.object({
 })
 
 const AnswerSchema = z.object({
-    success: z.boolean(),
-    data: z.object({
-        answer: z.string()
-    })
+    answer: z.string()
 })
 
 const PasswordSchema = z.object({
-    success: z.boolean(),
-    data: z.object({
-        RandomPassword: z.string()
-    })
+    RandomPassword: z.string()
 })
 
 const MetaSchema = z.object({
-    success: z.boolean(),
-    data: z.object({
-        id: z.string(),
-        answer: z.string(),
-        answer_i18n: z.object({
-            'zh-TW': z.string().optional(),
-            en: z.string().optional()
-        }).optional(),
-        meta: z.object({
-            tone: z.string().optional(),
-            mood: z.string().optional(),
-            style: z.string().optional(),
-            length: z.string().optional(),
-            themes: z.array(z.string()).optional()
-        }).optional()
-    })
+    id: z.string(),
+    answer: z.string(),
+    answer_i18n: z.object({
+        'zh-TW': z.string().optional(),
+        en: z.string().optional()
+    }).optional(),
+    meta: z.object({
+        tone: z.string().optional(),
+        mood: z.string().optional(),
+        style: z.string().optional(),
+        length: z.string().optional(),
+        themes: z.array(z.string()).optional()
+    }).optional()
 })
 
 // --- Routes ---
@@ -88,7 +79,7 @@ app.openapi(
     async (c) => {
         const lang = c.req.query('lang')
         const answer = await getRandomAnswerFromKV(c.env, lang)
-        return c.json({ success: true, data: { answer } })
+        return c.json({ answer })
     }
 )
 
@@ -112,7 +103,7 @@ app.openapi(
     }),
     (c) => {
         const password = generateRandomPassword()
-        return c.json({ success: true, data: { RandomPassword: password } })
+        return c.json({ RandomPassword: password })
     }
 )
 
@@ -128,7 +119,7 @@ app.openapi(
                 description: 'Random poem',
                 content: {
                     'application/json': {
-                        schema: z.object({ success: z.boolean(), data: z.object({ poem: z.object({}).passthrough() }) })
+                        schema: z.object({ poem: z.object({}).passthrough() })
                     }
                 }
             }
@@ -136,7 +127,7 @@ app.openapi(
     }),
     async (c) => {
         const poem = await getRandomPoemFromKV(c.env)
-        return c.json({ success: true, data: { poem } })
+        return c.json({ poem })
     }
 )
 
@@ -152,7 +143,7 @@ app.openapi(
                 description: 'Random oracle',
                 content: {
                     'application/json': {
-                        schema: z.object({ success: z.boolean(), data: z.object({ oracle: z.object({}).passthrough() }) })
+                        schema: z.object({ oracle: z.object({}).passthrough() })
                     }
                 }
             }
@@ -160,7 +151,7 @@ app.openapi(
     }),
     async (c) => {
         const oracle = await getRandomOracleFromKV(c.env)
-        return c.json({ success: true, data: { oracle } })
+        return c.json({ oracle })
     }
 )
 
@@ -183,13 +174,13 @@ marketRoutes.forEach(route => {
             responses: {
                 200: {
                     description: route.desc,
-                    content: { 'application/json': { schema: SuccessResponseSchema } }
+                    content: { 'application/json': { schema: z.object({}).passthrough() } }
                 }
             }
         }),
         async (c) => {
             const data = await c.env.ANSWERS_BOOK.get(route.key, 'json')
-            return c.json({ success: true, data: { [route.key]: data } })
+            return c.json({ [route.key]: data })
         }
     )
 })
@@ -216,7 +207,7 @@ app.openapi(
     async (c) => {
         const lang = c.req.query('lang')
         const answer = await getRandomAnswerOriginalFromKV(c.env, lang)
-        return c.json({ success: true, data: { answer } })
+        return c.json({ answer })
     }
 )
 
@@ -250,7 +241,7 @@ app.openapi(
         const filters = extractMetaFilters(searchParams)
         try {
             const payload = await getRandomAnswerWithMeta(c.env, lang, filters)
-            return c.json({ success: true, data: payload })
+            return c.json(payload)
         } catch (e) {
             return c.json({ success: false, error: e.message }, 500)
         }
@@ -339,12 +330,12 @@ app.openapi(
         tags: ['Words Learning'],
         description: 'Legacy GRE word endpoint',
         responses: {
-            200: { description: 'GRE word', content: { 'application/json': { schema: SuccessResponseSchema } } }
+            200: { description: 'GRE word', content: { 'application/json': { schema: z.object({ greWord: z.object({}).passthrough() }) } } }
         }
     }),
     async (c) => {
         const greWord = await getRandomGreWordFromKV(c.env)
-        return c.json({ success: true, data: { greWord } })
+        return c.json({ greWord })
     }
 )
 
