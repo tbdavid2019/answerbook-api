@@ -11,43 +11,43 @@ async function handleRequest(request) {
 	if (pathname === '/') {
 		const lang = url.searchParams.get('lang');
 		const answer = await getRandomAnswerFromKV(lang);
-		response = createSuccessResponse({ answer: answer });
+		response = createLegacyResponse({ answer: answer });
 	} else if (pathname === '/RandomPassword') {
 		const password = generateRandomPassword();
-		response = createSuccessResponse({ RandomPassword: password });
+		response = createLegacyResponse({ RandomPassword: password });
 	} else if (pathname === '/TangPoetry') {
 		const poem = await getRandomPoemFromKV();
-		response = createSuccessResponse({ poem: poem });
+		response = createLegacyResponse({ poem: poem });
 	} else if (pathname === '/TempleOracleJP') {
 		const oracle = await getRandomOracleFromKV();
-		response = createSuccessResponse({ oracle: oracle });
+		response = createLegacyResponse({ oracle: oracle });
 	} else if (pathname === '/greWord') {
 		const greWord = await getRandomGreWordFromKV();
-		response = createSuccessResponse({ greWord: greWord });
+		response = createLegacyResponse({ greWord: greWord });
 	} else if (pathname === '/SP500') {
 		const sp500Data = await ANSWERS_BOOK.get('SP500', 'json');
-		response = createSuccessResponse({ SP500: sp500Data });
+		response = createLegacyResponse({ SP500: sp500Data });
 	} else if (pathname === '/TW0050') {
 		const tw0050Data = await ANSWERS_BOOK.get('TW0050', 'json');
-		response = createSuccessResponse({ TW0050: tw0050Data });
+		response = createLegacyResponse({ TW0050: tw0050Data });
 	} else if (pathname === '/TW0051') {
 		const tw0051Data = await ANSWERS_BOOK.get('TW0051', 'json');
-		response = createSuccessResponse({ TW0051: tw0051Data });
+		response = createLegacyResponse({ TW0051: tw0051Data });
 	} else if (pathname === '/nasdaq100') {
 		const nasdaq100Data = await ANSWERS_BOOK.get('nasdaq100', 'json');
-		response = createSuccessResponse({ nasdaq100: nasdaq100Data });
+		response = createLegacyResponse({ nasdaq100: nasdaq100Data });
 	} else if (pathname === '/answersWithMeta') {
 		const lang = url.searchParams.get('lang') || 'zh-TW';
 		const filters = extractMetaFilters(url.searchParams);
 		const payload = await getRandomAnswerWithMeta(lang, filters);
-		response = createSuccessResponse(payload);
+		response = createLegacyResponse(payload);
 	} else if (pathname === '/dowjones') {
 		const dowjonesData = await ANSWERS_BOOK.get('dowjones', 'json');
-		response = createSuccessResponse({ dowjones: dowjonesData });
+		response = createLegacyResponse({ dowjones: dowjonesData });
 	} else if (pathname === '/answersOriginal') {
 		const lang = url.searchParams.get('lang');
 		const answer = await getRandomAnswerOriginalFromKV(lang);
-		response = createSuccessResponse({ answer: answer });
+		response = createLegacyResponse({ answer: answer });
 	} else if (pathname === '/words/categories') {
 		response = await handleGetCategories();
 	} else if (pathname === '/words/random') {
@@ -222,7 +222,7 @@ async function handleGetCategories() {
 			return createErrorResponse('Words index not found', 404);
 		}
 
-		return createSuccessResponse({
+		return createWordsSuccessResponse({
 			categories: indexData.categories,
 			total: indexData.categories.length,
 			totalWords: indexData.totalWords
@@ -246,7 +246,7 @@ async function handleGetCategoryRandomWord(category) {
 		const randomIndex = Math.floor(Math.random() * lines.length);
 		const randomWord = JSON.parse(lines[randomIndex]);
 
-		return createSuccessResponse(randomWord);
+		return createWordsSuccessResponse(randomWord);
 	} catch (error) {
 		console.error('Error in handleGetCategoryRandomWord:', error);
 		return createErrorResponse(error.message, 500);
@@ -268,7 +268,7 @@ async function handleGetSpecificWord(category, word) {
 		for (const line of lines) {
 			const wordObj = JSON.parse(line);
 			if (wordObj.word && wordObj.word.toLowerCase() === searchWord) {
-				return createSuccessResponse(wordObj);
+				return createWordsSuccessResponse(wordObj);
 			}
 		}
 
@@ -312,7 +312,7 @@ async function handleGetRandomWord(categoriesParam) {
 		const randomIndex = Math.floor(Math.random() * lines.length);
 		const randomWord = JSON.parse(lines[randomIndex]);
 
-		return createSuccessResponse(randomWord);
+		return createWordsSuccessResponse(randomWord);
 	} catch (error) {
 		console.error('Error in handleGetRandomWord:', error);
 		return createErrorResponse(error.message, 500);
@@ -320,11 +320,18 @@ async function handleGetRandomWord(categoriesParam) {
 }
 
 // Create success response
-function createSuccessResponse(data) {
+function createWordsSuccessResponse(data) {
 	return new Response(JSON.stringify({
 		success: true,
 		data: data
 	}), {
+		status: 200,
+		headers: { 'Content-Type': 'application/json' }
+	});
+}
+
+function createLegacyResponse(data) {
+	return new Response(JSON.stringify(data), {
 		status: 200,
 		headers: { 'Content-Type': 'application/json' }
 	});

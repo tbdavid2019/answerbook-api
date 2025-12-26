@@ -73,7 +73,7 @@ describe('Answerbook API Tests', () => {
 		
 		expect(response.status).toBe(200);
 		const data = await response.json();
-		expect(data).toHaveProperty('success');
+		expect(data).toHaveProperty('answer');
 	});
 
 	// ==================== 新的詞彙 API 測試 ====================
@@ -244,4 +244,3 @@ describe('Answerbook API Tests', () => {
 		});
 	});
 });
-
