@@ -1,12 +1,16 @@
 {
   "name": "answerbook-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Cloudflare Worker API for Book of Answers, Random Passwords, and Words Learning",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare-words": "node scripts/prepare-words-data.js",
+    "upload-words": "node scripts/upload-words-to-kv.js",
+    "build-data": "npm run prepare-words && npm run upload-words"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.4.5",

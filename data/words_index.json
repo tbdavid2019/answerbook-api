@@ -1,0 +1,36 @@
+{
+  "totalWords": 27516,
+  "totalCategories": 5,
+  "categories": [
+    {
+      "id": "gre",
+      "name": "GRE",
+      "fullName": "Graduate Record Examination",
+      "totalWords": 7199
+    },
+    {
+      "id": "gmat",
+      "name": "GMAT",
+      "fullName": "Graduate Management Admission Test",
+      "totalWords": 3254
+    },
+    {
+      "id": "ielts",
+      "name": "IELTS",
+      "fullName": "International English Language Testing System",
+      "totalWords": 3427
+    },
+    {
+      "id": "toefl",
+      "name": "TOEFL",
+      "fullName": "Test of English as a Foreign Language",
+      "totalWords": 9213
+    },
+    {
+      "id": "sat",
+      "name": "SAT",
+      "fullName": "Scholastic Assessment Test",
+      "totalWords": 4423
+    }
+  ]
+}
