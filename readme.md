@@ -27,110 +27,222 @@
 https://answerbook.david888.com/
 ```
 
-### 解答之書範例 (新路徑)
+### 常用 CURL 範例
 
+**解答之書 (Book of Answers)**
 ```bash
-# 雙語結果（預設）
+# 預設雙語
 curl https://answerbook.david888.com/answers
 
-# 僅英文
+# 指定語言
 curl "https://answerbook.david888.com/answers?lang=en"
-
-# 僅繁體中文
 curl "https://answerbook.david888.com/answers?lang=zh-TW"
+
+# 原版解答
+curl http://answerbook.david888.com/answersOriginal
 ```
 
-### 單詞學習 API 範例
-
+**單詞學習 (Words Learning)**
 ```bash
-# 查看所有分類
+# 查看分類
 curl https://answerbook.david888.com/words/categories
 
-# 獲取 GRE 隨機單詞
+# GRE 單詞
 curl https://answerbook.david888.com/words/gre
 ```
 
+**其他工具**
+```bash
+# 隨機密碼
+curl http://answerbook.david888.com/RandomPassword
+
+# 唐詩
+curl http://answerbook.david888.com/TangPoetry
+
+# 日本淺草籤
+curl http://answerbook.david888.com/TempleOracleJP
+```
+
+**市場數據**
+```bash
+curl http://answerbook.david888.com/SP500
+curl http://answerbook.david888.com/nasdaq100
+curl http://answerbook.david888.com/TW0050
+```
+
 ---
 
-## 📖 API 文檔
+## 📖 API 詳細說明
 
-> 💡 **提示**: 建議直接查看 [Swagger UI](https://answerbook.david888.com/) 獲取最新、最強大的互動式文檔。
+雖然建議使用 [Swagger UI](https://answerbook.david888.com/)，但此處提供核心 API 的快速參考。
 
 ### 1️⃣ 解答之書 API
 
-#### `GET /answers` (原 `/`)
-返回隨機解答（雙語或單語）
+#### `GET /answers` (原 `GET /`)
+返回隨機解答（預設雙語）。
 
-**參數**: `lang` (可選): `en` | `zh-TW`
+- **參數**: `lang` (可選): `en` | `zh-TW`
+- **回應範例**:
+  ```json
+  { "answer": "中文答案\nEnglish answer" }
+  ```
 
 #### `GET /answersOriginal`
-返回原版 350 條解答中的隨機一條
+從原版 350 條解答中返回隨機一條。
+
+- **參數**: 同上
+- **回應範例**:
+  ```json
+  { "answer": "單一語言答案" }
+  ```
 
 #### `GET /answersWithMeta`
-返回帶有 metadata 的解答，支援過濾
+返回帶有屬性 (Metadata) 的解答，支援過濾。
 
----
+- **參數**: `lang`, `tone`, `mood`, `style`, `length`, `themes`
+- **回應範例**:
+  ```json
+  {
+    "id": "344",
+    "answer": "Let dice decide the order",
+    "answer_i18n": { "zh-TW": "用骰子決定順序", "en": "Let dice decide the order" },
+    "meta": { "tone": "playful", "themes": ["decision"] }
+  }
+  ```
 
 ### 2️⃣ 單詞學習 API
 
-#### `GET /words/categories`
-獲取所有可用的詞彙分類
+新版詞彙 API，支援多種考試類型。
 
-#### `GET /words/{category}`
-從指定分類獲取隨機單詞 (`gre`, `gmat`, `ielts`, `toefl`, `sat`)
-
-#### `GET /words/{category}/{word}`
-獲取特定單詞的詳細資訊
-
----
+- **獲取分類**: `GET /words/categories`
+- **獲取隨機詞彙**: `GET /words/{category}` (category: `gre`, `gmat`, `ielts`, `toefl`, `sat`)
+- **獲取特定詞彙**: `GET /words/{category}/{word}`
 
 ### 3️⃣ 其他 API
 
-| 端點 | 說明 |
-|------|------|
-| `GET /RandomPassword` | 生成 16 字元隨機密碼 |
-| `GET /TangPoetry` | 隨機唐詩 |
-| `GET /TempleOracleJP` | 隨機日本淺草籤 |
-| `GET /SP500` | S&P 500 數據 |
-| `GET /nasdaq100` | Nasdaq 100 數據 |
-| `GET /TW0050` | 元大台灣 50 數據 |
+| 端點 | 回應範例 |
+|------|---------|
+| `/RandomPassword` | `{ "RandomPassword": "xyz..." }` |
+| `/TangPoetry` | `{ "poem": { "title": "...", "content": "..." } }` |
+| `/TempleOracleJP` | `{ "oracle": { "type": "大吉", "poem": "..." } }` |
+| `/SP500`等 | `{ "SP500": { "price": "..." } }` |
+
+---
+
+## 📦 數據管理與同步 (KV)
+
+若修改了本地的 `data/*.json` 文件，請使用以下指令同步至 Cloudflare KV。
+
+### 1. 解答之書數據
+
+**同步主要解答庫**:
+```bash
+npx wrangler kv:key put answersbook --binding ANSWERS_BOOK --path data/answersbook_i18n.json
+```
+
+**同步原版解答庫**:
+```bash
+npx wrangler kv:key put answersbook_original --binding ANSWERS_BOOK --path data/answersbook_original_enriched.json
+```
+
+### 2. 詩籤數據
+
+**同步日本淺草籤 (TempleOracleJP)**:
+```bash
+npx wrangler kv:key put TempleOracleJP --binding ANSWERS_BOOK --path data/TempleOracleJP.json
+```
+
+### 3. 單詞數據
+
+單詞數據量較大，請使用專用腳本處理：
+```bash
+# 準備並上傳單詞數據
+npm run build-data
+```
+
+
+---
+
+## 🏗️ 單詞學習 API 數據處理 (Advanced)
+
+單詞學習 API 使用特殊的標籤式存儲系統來處理大量詞彙數據。
+
+### 1. 數據目錄結構
+
+```bash
+data/
+├── words/
+│   ├── GRE/GRE.json
+│   ├── GMAT/GMAT詞彙.json
+│   ├── IELTS/雅思詞彙.json
+│   ├── TOEFL/TOEFL詞彙.json
+│   └── SAT/SAT詞彙.json
+└── words_processed.json  # 自動生成
+└── words_index.json      # 自動生成
+```
+
+### 2. 資料處理流程
+
+若您新增或修改了 `data/words/` 下的原始 JSON 檔案，請依序執行以下步驟：
+
+#### 步驟一：準備數據 (Prepare)
+此腳本會掃描 `data/words` 目錄，解析原始文件，並生成標準化的 NDJSON 檔案與索引。
+
+```bash
+npm run prepare-words
+# 或直接執行: node scripts/prepare-words-data.js
+```
+
+**輸出檔案**：
+- `data/words_index.json`: 包含所有分類的元數據。
+- `data/words_{category}.ndjson`: 每個分類的獨立數據檔。
+
+#### 步驟二：上傳數據 (Upload)
+此腳本會讀取生成的索引與 NDJSON 檔案，並分批上傳至 Cloudflare KV (`ANSWERS_BOOK`)。
+
+```bash
+npm run upload-words
+# 或直接執行: node scripts/upload-words-to-kv.js
+```
+
+**KV 鍵值結構**:
+- `words_index`: 存儲所有分類的列表。
+- `words_{category}`: 存儲該分類的所有單詞 (NDJSON 格式)。
+
+#### 快捷指令
+一次完成準備與上傳：
+```bash
+npm run build-data
+```
 
 ---
 
 ## 🛠️ 開發指南
 
+
 本專案使用 **[Hono](https://hono.dev/)** 框架構建，並使用 `zod-openapi` 自動生成 Swagger 文檔。
 
 ### 環境需求
-
 - Node.js 18+
 - Cloudflare 帳號
 - Wrangler CLI
 
-### 安裝與設定
-
+### 安裝與運行
 ```bash
-# 1. 克隆專案
 git clone https://github.com/tbdavid2019/answerbook-api.git
 cd answerbook-api
-
-# 2. 安裝依賴
 npm install
-
-# 3. 本地開發
 npm run dev
-# 服務運行在 http://localhost:8787
 ```
 
 ### 專案結構
-
 ```
 answerbook-api/
 ├── src/
-│   ├── index.js              # Hono App Entry Point (New)
-│   └── index.legacy.js       # Legacy Request Handler (Backup)
-├── scripts/
-│   └── ...                   # 數據處理腳本
+│   ├── index.js              # Hono App Entry Point
+│   └── index.legacy.js       # Legacy Backup
+├── data/                     # JSON 數據源
+├── scripts/                  # 數據處理腳本
 └── wrangler.toml             # Cloudflare 配置
 ```
 
@@ -139,18 +251,16 @@ answerbook-api/
 ## 📅 更新日誌
 
 ### v1.0.1 (2024-12-26)
-- **🐛 Fix**: 修復 Swagger UI 載入時的 500 錯誤。
-  - 原因：`zod-to-openapi` 與新版 `zod` 對 dynamic types (`z.record`) 的處理不相容。
-  - 解決：將 schema 定義更新為 `z.object({}).passthrough()`。
+- **🐛 Fix**: 修復 Swagger UI 載入 500 錯誤。
+- **🔙 Revert**: 恢復舊版 API 的 Flat Object 回應格式，確保向下相容。
+- **📝 Docs**: 恢復 README 詳細指令文檔。
 
 ### v1.0.0 (2024-12-26)
-- **♻️ Refactor**: 將底層框架從原生 Worker 遷移至 **Hono v4**。
-- **✨ New**: 引入 Swagger UI (OpenAPI 3.0) 自動化文檔，位於根路徑 `/`。
-- **🔄 Change**: 原解答之書 API 從 `/` 移動至 `/answers`。
-- **🔒 Security**: 實作標準化 CORS Middleware。
+- **♻️ Refactor**: 遷移至 **Hono v4** 框架。
+- **✨ New**: 引入 Swagger UI (OpenAPI 3.0)。
+- **🔄 Change**: 解答之書路徑從 `/` 移至 `/answers`。
 
 ---
 
 ## 🤝 貢獻
-
 歡迎提交 Pull Request 或開啟 Issue！
