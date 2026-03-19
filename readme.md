@@ -250,7 +250,7 @@ npm run build-data
 git clone https://github.com/tbdavid2019/answerbook-api.git
 cd answerbook-api
 npm install
-npm run dev
+npm run deploy
 ```
 
 ### 專案結構
