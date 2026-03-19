@@ -45,7 +45,10 @@ const mockWordsData = {
 				memoryTip: '',
 				phrases: []
 			}
-		]
+		],
+		ielts: [{ word: 'ielts_word', category: 'ielts' }],
+		gmat: [{ word: 'gmat_word', category: 'gmat' }],
+		sat: [{ word: 'sat_word', category: 'sat' }]
 	}
 };
 

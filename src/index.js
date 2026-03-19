@@ -2,6 +2,7 @@
 import { OpenAPIHono, createRoute, z } from '@hono/zod-openapi'
 import { swaggerUI } from '@hono/swagger-ui'
 import { cors } from 'hono/cors'
+import { handleMCPRequest } from './mcp'
 
 const app = new OpenAPIHono()
 
@@ -340,9 +341,27 @@ app.openapi(
 )
 
 
+// --- MCP Route ---
+app.post('/mcp', async (c) => {
+    const dependencies = {
+        getRandomAnswerFromKV,
+        getRandomAnswerOriginalFromKV,
+        getRandomAnswerWithMeta,
+        generateRandomPassword,
+        getRandomPoemFromKV,
+        getRandomOracleFromKV,
+        handleGetCategories,
+        handleGetRandomWord,
+        handleGetCategoryRandomWord,
+        handleGetSpecificWord
+    };
+    const response = await handleMCPRequest(c.req.raw, c.env, dependencies);
+    return c.json(response);
+});
+
 // --- Helper Functions (Ported & Updated for Module Syntax) ---
 
-async function getRandomAnswerFromKV(env, lang) {
+export async function getRandomAnswerFromKV(env, lang) {
     try {
         if (!env.ANSWERS_BOOK) throw new Error('KV binding ANSWERS_BOOK missing')
         const data = await env.ANSWERS_BOOK.get('answersbook', 'json');
@@ -369,7 +388,7 @@ async function getRandomAnswerFromKV(env, lang) {
     }
 }
 
-async function getRandomAnswerOriginalFromKV(env, lang) {
+export async function getRandomAnswerOriginalFromKV(env, lang) {
     try {
         if (!env.ANSWERS_BOOK) throw new Error('KV binding ANSWERS_BOOK missing')
         const data = await env.ANSWERS_BOOK.get('answersbook_original', 'json');
@@ -396,7 +415,7 @@ async function getRandomAnswerOriginalFromKV(env, lang) {
     }
 }
 
-async function getRandomAnswerWithMeta(env, lang, filters) {
+export async function getRandomAnswerWithMeta(env, lang, filters) {
     if (!env.ANSWERS_BOOK) throw new Error('KV binding ANSWERS_BOOK missing')
     const data = await env.ANSWERS_BOOK.get('answersbook', 'json');
     if (!data) throw new Error('KV data is null or undefined');
@@ -446,7 +465,7 @@ function extractMetaFilters(searchParams) {
 }
 
 // Words API Helpers
-async function handleGetCategories(env) {
+export async function handleGetCategories(env) {
     try {
         if (!env.ANSWERS_BOOK) return createErrorResponse('KV binding missing', 500)
         const indexData = await env.ANSWERS_BOOK.get('words_index', 'json');
@@ -465,7 +484,7 @@ async function handleGetCategories(env) {
     }
 }
 
-async function handleGetCategoryRandomWord(env, category) {
+export async function handleGetCategoryRandomWord(env, category) {
     try {
         if (!env.ANSWERS_BOOK) return createErrorResponse('KV binding missing', 500)
         const ndjsonData = await env.ANSWERS_BOOK.get(`words_${category}`, 'text');
@@ -484,7 +503,7 @@ async function handleGetCategoryRandomWord(env, category) {
     }
 }
 
-async function handleGetSpecificWord(env, category, word) {
+export async function handleGetSpecificWord(env, category, word) {
     try {
         if (!env.ANSWERS_BOOK) return createErrorResponse('KV binding missing', 500)
         const ndjsonData = await env.ANSWERS_BOOK.get(`words_${category}`, 'text');
@@ -509,7 +528,7 @@ async function handleGetSpecificWord(env, category, word) {
     }
 }
 
-async function handleGetRandomWord(env, categoriesParam) {
+export async function handleGetRandomWord(env, categoriesParam) {
     try {
         if (!env.ANSWERS_BOOK) return createErrorResponse('KV binding missing', 500)
         const indexData = await env.ANSWERS_BOOK.get('words_index', 'json');
@@ -588,7 +607,7 @@ async function getRandomGreWordFromKV(env) {
     }
 }
 
-async function getRandomPoemFromKV(env) {
+export async function getRandomPoemFromKV(env) {
     try {
         if (!env.ANSWERS_BOOK) throw new Error('KV missing')
         const data = await env.ANSWERS_BOOK.get('TangPoetry', 'json');
@@ -601,7 +620,7 @@ async function getRandomPoemFromKV(env) {
     }
 }
 
-async function getRandomOracleFromKV(env) {
+export async function getRandomOracleFromKV(env) {
     try {
         if (!env.ANSWERS_BOOK) throw new Error('KV missing')
         const data = await env.ANSWERS_BOOK.get('TempleOracleJP', 'json');
@@ -614,7 +633,7 @@ async function getRandomOracleFromKV(env) {
     }
 }
 
-function generateRandomPassword() {
+export function generateRandomPassword() {
     const length = 16;
     const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     const symbols = '-';

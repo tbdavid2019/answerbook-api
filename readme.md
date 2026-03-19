@@ -72,6 +72,24 @@ curl http://answerbook.david888.com/TW0050
 
 ---
 
+## 🤖 LLM & AI 整合 (Skills & MCP)
+
+本專案針對 AI 助手（如 Claude, Codex, Cursor）進行了優化，提供標準化的 **Skills** 說明文件與 **MCP (Model Context Protocol)** 伺服器。
+
+### 1. AI Skills 文件
+我們在專案根目錄的 `skills/` 資料夾下提供了結構化的 Skill 說明，幫助 LLM 準確理解如何調用各類 API：
+- [Answer Book Skill](skills/answer-book/SKILL.md)
+- [Market Data Skill](skills/market-data/SKILL.md)
+- [Words Learning Skill](skills/words-learning/SKILL.md)
+- [Utilities Skill](skills/utilities/SKILL.md)
+
+### 2. MCP Server
+本服務支援 MCP 協定，透過 `/mcp` 端點提供 Tool 發現與執行功能。這使得支援 MCP 的客戶端可以自動將 API 轉換為可直接串接的工具。
+
+**MCP 端點**: `POST https://answerbook.david888.com/mcp`
+
+---
+
 ## 📖 API 詳細說明
 
 雖然建議使用 [Swagger UI](https://answerbook.david888.com/)，但此處提供核心 API 的快速參考。
