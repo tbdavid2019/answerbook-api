@@ -69,6 +69,10 @@ describe('Answerbook API Tests', () => {
 					if (mockWordsData.words[category]) {
 						value = mockWordsData.words[category].map(w => JSON.stringify(w)).join('\n');
 					}
+				} else if (key === 'StrayBirds') {
+					value = JSON.stringify([
+						{ num: 1, english: "Stray birds of summer come to my window...", chinese: "夏日裡離了群的鳥兒..." }
+					]);
 				}
 
 				if (value === null) return null;
@@ -233,6 +237,28 @@ describe('Answerbook API Tests', () => {
 			expect(data.success).toBe(false);
 		});
 	});
+
+	describe('Stray Birds API - GET /StrayBirds', () => {
+		it('should return a random Stray Birds poem', async () => {
+			const request = new Request('http://example.com/StrayBirds');
+			ctx = createExecutionContext();
+			const response = await worker.fetch(request, env, ctx);
+			await waitOnExecutionContext(ctx);
+
+			expect(response.status).toBe(200);
+			const data = await response.json();
+
+			expect(data).toHaveProperty('poem');
+			expect(data.poem).toHaveProperty('num');
+			expect(data.poem.num).toBe(1);
+			expect(data.poem).toHaveProperty('author');
+			expect(data.poem.author).toContain('Tagore');
+			expect(data.poem).toHaveProperty('english');
+			expect(data.poem).toHaveProperty('chinese');
+			expect(data.poem).toHaveProperty('text');
+		});
+	});
+
 
 	describe('CORS Headers', () => {
 		it('should include CORS headers in response', async () => {

@@ -155,19 +155,24 @@ curl http://answerbook.david888.com/TW0050
 
 **同步主要解答庫**:
 ```bash
-npx wrangler kv:key put answersbook --binding ANSWERS_BOOK --path data/answersbook_i18n.json
+npx wrangler kv key put answersbook --binding ANSWERS_BOOK --path data/answersbook_i18n.json
 ```
 
 **同步原版解答庫**:
 ```bash
-npx wrangler kv:key put answersbook_original --binding ANSWERS_BOOK --path data/answersbook_original_enriched.json
+npx wrangler kv key put answersbook_original --binding ANSWERS_BOOK --path data/answersbook_original_enriched.json
 ```
 
 ### 2. 詩籤數據
 
 **同步日本淺草籤 (TempleOracleJP)**:
 ```bash
-npx wrangler kv:key put TempleOracleJP --binding ANSWERS_BOOK --path data/TempleOracleJP.json
+npx wrangler kv key put TempleOracleJP --binding ANSWERS_BOOK --path data/TempleOracleJP.json
+```
+
+**同步飛鳥集 (StrayBirds)**:
+```bash
+npx wrangler kv key put StrayBirds --binding ANSWERS_BOOK --path data/StrayBirds.json
 ```
 
 ### 3. 單詞數據
@@ -267,6 +272,12 @@ answerbook-api/
 ---
 
 ## 📅 更新日誌
+
+### v1.0.2 (2026-07-12)
+- **✨ New**: 新增泰戈爾《飛鳥集》雙語隨機詩集 API 端點 `/StrayBirds`，支援英文原文與繁體中文。
+- **🛠️ MCP**: 新增 `get_stray_birds` Model Context Protocol 工具。
+- **🐛 Fix**: 修正 `readme.md` 中的 `wrangler` KV 指令為新版空格語法 `kv key put`。
+- **🧪 Test**: 新增測試覆蓋率保證。
 
 ### v1.0.1 (2024-12-26)
 - **🐛 Fix**: 修復 Swagger UI 載入 500 錯誤。

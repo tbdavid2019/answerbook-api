@@ -132,6 +132,30 @@ app.openapi(
     }
 )
 
+// 5b. Stray Birds
+app.openapi(
+    createRoute({
+        method: 'get',
+        path: '/StrayBirds',
+        tags: ['Culture'],
+        description: 'Get a random poem from Rabindranath Tagore\'s Stray Birds',
+        responses: {
+            200: {
+                description: 'Random Stray Birds poem',
+                content: {
+                    'application/json': {
+                        schema: z.object({ poem: z.object({}).passthrough() })
+                    }
+                }
+            }
+        }
+    }),
+    async (c) => {
+        const poem = await getRandomStrayBirdsFromKV(c.env)
+        return c.json({ poem })
+    }
+)
+
 // 6. Temple Oracle (JP)
 app.openapi(
     createRoute({
@@ -350,6 +374,7 @@ app.post('/mcp', async (c) => {
         generateRandomPassword,
         getRandomPoemFromKV,
         getRandomOracleFromKV,
+        getRandomStrayBirdsFromKV,
         handleGetCategories,
         handleGetRandomWord,
         handleGetCategoryRandomWord,
@@ -616,6 +641,27 @@ export async function getRandomPoemFromKV(env) {
         return data[randomIndex];
     } catch (error) {
         console.error('Error fetching random poem:', error);
+        return `Error: ${error.message}`;
+    }
+}
+
+export async function getRandomStrayBirdsFromKV(env) {
+    try {
+        if (!env.ANSWERS_BOOK) throw new Error('KV missing')
+        const data = await env.ANSWERS_BOOK.get('StrayBirds', 'json');
+        if (!data) throw new Error('KV data is null or undefined');
+        const randomIndex = Math.floor(Math.random() * data.length);
+        const poem = data[randomIndex];
+        return {
+            num: poem.num,
+            author: "Rabindranath Tagore (泰戈爾)",
+            title: `Stray Birds《飛鳥集》 - 第 ${poem.num} 首`,
+            english: poem.english,
+            chinese: poem.chinese,
+            text: `${poem.english}\n\n${poem.chinese}`
+        };
+    } catch (error) {
+        console.error('Error fetching random Stray Birds poem:', error);
         return `Error: ${error.message}`;
     }
 }

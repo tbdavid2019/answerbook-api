@@ -46,6 +46,11 @@ export const tools = [
         inputSchema: { type: 'object', properties: {} }
     },
     {
+        name: 'get_stray_birds',
+        description: 'Get a random poem from Stray Birds by Rabindranath Tagore.',
+        inputSchema: { type: 'object', properties: {} }
+    },
+    {
         name: 'get_temple_oracle',
         description: 'Get a random Japanese Temple Oracle (Omikuji).',
         inputSchema: { type: 'object', properties: {} }
@@ -103,6 +108,7 @@ export async function handleMCPRequest(request, env, dependencies) {
         generateRandomPassword,
         getRandomPoemFromKV,
         getRandomOracleFromKV,
+        getRandomStrayBirdsFromKV,
         handleGetCategories,
         handleGetRandomWord,
         handleGetCategoryRandomWord,
@@ -140,6 +146,9 @@ export async function handleMCPRequest(request, env, dependencies) {
                     break;
                 case 'get_tang_poetry':
                     result = await getRandomPoemFromKV(env);
+                    break;
+                case 'get_stray_birds':
+                    result = await getRandomStrayBirdsFromKV(env);
                     break;
                 case 'get_temple_oracle':
                     result = await getRandomOracleFromKV(env);
