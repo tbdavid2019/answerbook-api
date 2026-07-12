@@ -14,7 +14,7 @@
 | 🎱 解答之書 | 隨機解答生成器（支援雙語） | `/answers`, `/answersOriginal` |
 | 📖 單詞學習 | GRE/TOEFL/IELTS/GMAT/SAT 詞彙 API | `/words/*` |
 | 🔐 工具類 | 隨機密碼生成器 | `/RandomPassword` |
-| 📜 詩籤類 | 唐詩、日本淺草籤 | `/TangPoetry`, `/TempleOracleJP` |
+| 📜 詩籤類 | 唐詩、日本淺草籤、泰戈爾飛鳥集 | `/TangPoetry`, `/TempleOracleJP`, `/StrayBirds` |
 | 📊 市場數據 | S&P 500、Nasdaq、台股等 | `/SP500`, `/nasdaq100` 等 |
 
 ---
@@ -61,6 +61,9 @@ curl http://answerbook.david888.com/TangPoetry
 
 # 日本淺草籤
 curl http://answerbook.david888.com/TempleOracleJP
+
+# 泰戈爾飛鳥集
+curl http://answerbook.david888.com/StrayBirds
 ```
 
 **市場數據**
@@ -141,8 +144,9 @@ curl http://answerbook.david888.com/TW0050
 | 端點 | 回應範例 |
 |------|---------|
 | `/RandomPassword` | `{ "RandomPassword": "xyz..." }` |
-| `/TangPoetry` | `{ "poem": { "title": "...", "content": "..." } }` |
+| `/TangPoetry` | `{ "poem": { "num": 1, "author": "...", "title": "...", "text": "..." } }` |
 | `/TempleOracleJP` | `{ "oracle": { "type": "大吉", "poem": "..." } }` |
+| `/StrayBirds` | `{ "poem": { "num": 1, "author": "泰戈爾", "title": "...", "english": "...", "chinese": "...", "text": "..." } }` |
 | `/SP500`等 | `{ "SP500": { "price": "..." } }` |
 
 ---
