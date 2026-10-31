@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.3] - 2026-10-31
+
+### Added (新增)
+- **✨ 全球與台灣全市場指數路由擴充**:
+  - 新增日股（`/NIKKEI225`, `/N225`, `/JP225`）、台股全市場（`/TW_ALL`, `/TAIEX`, `/TWSE`, `/TPEX`, `/OTC`）、核心 ETF（`/0050`, `/0100`, `/0056`, `/00878`, `/00919`, `/00929`, `/00940`, `/00713`, `/00850`, `/TPEX50`）、費城半導體（`/SOX`, `/PHLX`）、港股（`/HSI`, `/HSTECH`）與歐股（`/DAX40`, `/FTSE100`, `/EUROSTOXX50`）等靜態與 OpenAPI 路由註冊。
+  - 新增 `GET /:key` 通用 KV 動態回退路由（Generic KV Fallback），未來任何寫入 `ANSWERS_BOOK` KV 的數據鍵值均可直接被外部或下游即時讀取，免去重啟部署需求。
+
+### Security
+- 遵循零洩漏鐵律，無任何硬編碼 API Key 或憑證。
+
 ## [v1.0.2] - 2026-07-12
 
 ### Added (新增)

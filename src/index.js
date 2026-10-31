@@ -182,11 +182,61 @@ app.openapi(
 
 // 7. Market Data Routes
 const marketRoutes = [
+    // US Markets
     { path: '/SP500', key: 'SP500', desc: 'S&P 500 Data' },
     { path: '/nasdaq100', key: 'nasdaq100', desc: 'Nasdaq 100 Data' },
     { path: '/dowjones', key: 'dowjones', desc: 'Dow Jones Data' },
+    { path: '/SOX', key: 'SOX', desc: 'PHLX Semiconductor Sector Data' },
+    { path: '/PHLX', key: 'PHLX', desc: 'PHLX Semiconductor Sector Data' },
+
+    // JP Markets
+    { path: '/NIKKEI225', key: 'NIKKEI225', desc: 'Nikkei 225 Data' },
+    { path: '/N225', key: 'N225', desc: 'Nikkei 225 Data' },
+    { path: '/JP225', key: 'JP225', desc: 'Nikkei 225 Data' },
+
+    // TW Core ETFs & Popular Indices
     { path: '/TW0050', key: 'TW0050', desc: 'TW0050 Data' },
+    { path: '/0050', key: '0050', desc: 'TW0050 Data' },
+    { path: '/TW0100', key: 'TW0100', desc: 'TW0100 Data' },
+    { path: '/0100', key: '0100', desc: 'TW0100 Data' },
     { path: '/TW0051', key: 'TW0051', desc: 'TW0051 Data' },
+    { path: '/0051', key: '0051', desc: 'TW0051 Data' },
+    { path: '/TW0056', key: 'TW0056', desc: 'TW0056 Data' },
+    { path: '/0056', key: '0056', desc: 'TW0056 Data' },
+    { path: '/TW00878', key: 'TW00878', desc: 'TW00878 Data' },
+    { path: '/00878', key: '00878', desc: 'TW00878 Data' },
+    { path: '/TW00919', key: 'TW00919', desc: 'TW00919 Data' },
+    { path: '/00919', key: '00919', desc: 'TW00919 Data' },
+    { path: '/TW00929', key: 'TW00929', desc: 'TW00929 Data' },
+    { path: '/00929', key: '00929', desc: 'TW00929 Data' },
+    { path: '/TW00940', key: 'TW00940', desc: 'TW00940 Data' },
+    { path: '/00940', key: '00940', desc: 'TW00940 Data' },
+    { path: '/TW00713', key: 'TW00713', desc: 'TW00713 Data' },
+    { path: '/00713', key: '00713', desc: 'TW00713 Data' },
+    { path: '/TW00850', key: 'TW00850', desc: 'TW00850 Data' },
+    { path: '/00850', key: '00850', desc: 'TW00850 Data' },
+    { path: '/TPEX50', key: 'TPEX50', desc: 'TPEX50 Data' },
+
+    // TW Whole Markets
+    { path: '/TAIEX', key: 'TAIEX', desc: 'TAIEX TWSE Listed Data' },
+    { path: '/TWSE', key: 'TWSE', desc: 'TAIEX TWSE Listed Data' },
+    { path: '/TPEX', key: 'TPEX', desc: 'TPEx OTC Listed Data' },
+    { path: '/OTC', key: 'OTC', desc: 'TPEx OTC Listed Data' },
+    { path: '/TW_ALL', key: 'TW_ALL', desc: 'Taiwan All Markets Data' },
+    { path: '/TWALL', key: 'TWALL', desc: 'Taiwan All Markets Data' },
+
+    // HK Markets
+    { path: '/HSI', key: 'HSI', desc: 'Hang Seng Index Data' },
+    { path: '/HANGSENG', key: 'HANGSENG', desc: 'Hang Seng Index Data' },
+    { path: '/HSTECH', key: 'HSTECH', desc: 'Hang Seng Tech Index Data' },
+
+    // EU Markets
+    { path: '/DAX40', key: 'DAX40', desc: 'DAX 40 Data' },
+    { path: '/DAX', key: 'DAX', desc: 'DAX 40 Data' },
+    { path: '/FTSE100', key: 'FTSE100', desc: 'FTSE 100 Data' },
+    { path: '/FTSE', key: 'FTSE', desc: 'FTSE 100 Data' },
+    { path: '/EUROSTOXX50', key: 'EUROSTOXX50', desc: 'EURO STOXX 50 Data' },
+    { path: '/STOXX50', key: 'STOXX50', desc: 'EURO STOXX 50 Data' },
 ]
 
 marketRoutes.forEach(route => {
@@ -693,6 +743,25 @@ export function generateRandomPassword() {
     }
     return formattedPassword;
 }
+
+// 16. Dynamic KV Fallback Route for Market Data & Custom Keys
+app.get('/:key', async (c) => {
+    const key = c.req.param('key')
+    if (!key || key.startsWith('.') || key === 'doc' || key === 'favicon.ico') {
+        return c.json({ success: false, error: 'Not Found' }, 404)
+    }
+    try {
+        if (c.env?.ANSWERS_BOOK) {
+            const data = await c.env.ANSWERS_BOOK.get(key, 'json')
+            if (data !== null && data !== undefined) {
+                return c.json({ [key]: data })
+            }
+        }
+    } catch (e) {
+        console.error(`Error fetching key ${key} from KV:`, e)
+    }
+    return c.json({ success: false, error: 'Not Found' }, 404)
+})
 
 app.notFound((c) => {
     return c.json({ success: false, error: 'Not Found' }, 404)
