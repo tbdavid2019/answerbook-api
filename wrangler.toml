@@ -3,6 +3,7 @@ name = "answerbook-api"
 main = "src/index.js"
 compatibility_date = "2024-08-21"
 compatibility_flags = ["nodejs_compat"]
+account_id = "379570860738dd1757ba7f67ef2bdffe"
 
 
 
