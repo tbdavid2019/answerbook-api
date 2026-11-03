@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.4] - 2026-11-03
+
+### Security (安全性更新)
+- **🛡️ 依賴安全漏洞修復與升級 (Dependabot & npm audit)**:
+  - 將已棄用的 `@cloudflare/vitest-pool-workers` 遷移升級至官方最新 `@cloudflare/vitest-plugin` (^1.5.0)。
+  - 升級 `vitest` 至 `^4.1.12`，更新測試配置至 `vitest.config.mjs`。
+  - 升級 `wrangler` 至 `^4.156.2`。
+  - 升級 `hono` 至 `^4.13.16`（修復 XSS、SSG 任意寫入、原型污染等漏洞）。
+  - 升級 `zod` 至 `^4.6.7`（修復記憶體耗盡 DoS 漏洞 GHSA-mrhx-c7xc-m3w5）。
+  - 升級 `@hono/swagger-ui` 至 `^0.6.2`、`@hono/zod-openapi` 至 `^1.6.3`。
+  - 徹底解決包含 `undici`, `sharp`, `tinypool`, `node-forge`, `devalue`, `vite`, `esbuild`, `rollup`, `ws`, `yaml`, `cookie` 等所有 Dependabot 歷史警報（`npm audit` 漏洞降至 0）。
+
 ## [v1.0.3] - 2026-10-31
 
 ### Added (新增)
